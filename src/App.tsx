@@ -7,17 +7,21 @@ import GuessList from './components/GuessList'
 
 export default function App() {
   
-  const stockObj = useStock()
+  const stockObj = useStock() //get stock info
+  /*
+  const [input, updateInput] = useState("")
 
-  //    Header
-    //  <Guesses />
-   //   <Submit />
+  const handleInputChange = (newInput) => {
+    updateInput(newInput)
+  }  
+  */
+ 
   return (
     <main>
       <Header />
       <div className="ticker">
         <Stock ticker={stockObj['Symbol']} />
-        <GuessList />
+        <GuessList stockObj={stockObj} />
       </div>
     </main>
   ) 
