@@ -1,6 +1,5 @@
-move submit button to make it look nicer
-see if you can get suggestions to open up upwards
-how many suggestions do you need?
+show more info in Stock component if guess is wrong
+max guesses
+one stock per user local day
 
-Work on game logic - guess right or wrong
-Show more information if wrong guess
+better submit button positioning
