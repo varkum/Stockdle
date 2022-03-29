@@ -1,5 +1,17 @@
-show more info in Stock component if guess is wrong
-max guesses
-one stock per user local day
 
-better submit button positioning
+Add share button 
+Remember user's record for the share data
+Clear local storage info when there's a new day
+
+STEPS:
+1. Restore random seeding in hook
+2. Remove clear storage
+3. Make sure state for gameDone is initialized to storage value
+
+
+better submit button positioning for autosuggest
+better positioning for hints
+better positioning for answer if you lose
+
+source for stocks: wikipedia table. Use a wikipedia table converter
+

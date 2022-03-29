@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Autosuggest from 'react-autosuggest'
 import stocks from '../stocks'
 import theme from "./theme"
@@ -8,16 +8,16 @@ const getSuggestions = value => {
   const inputLength = value.length
   
   return inputLength === 0 ? [] : stocks.filter(stock => 
-    stock["Description"].toLowerCase().slice(0, inputLength) === inputValue
+    stock["Security"].toLowerCase().slice(0, inputLength) === inputValue
   )
 }
 
-const getSuggestionValue = suggestion => suggestion['Description']
+const getSuggestionValue = suggestion => suggestion['Security']
 
 const renderSuggestion = suggestion => {
   return (
     <div>
-      {suggestion['Description']}
+      {suggestion['Security']}
     </div>
   )
 }
@@ -45,8 +45,9 @@ export default function GuessBox(props) {
     onChange: handleChange
   }
 
-    const prompt = props.done ? <h1 style={{margin: "10px" }}>Well done!</h1> : 
-      <Autosuggest
+  return (
+    <div>
+            <Autosuggest
         suggestions={suggestions}
          onSuggestionsFetchRequested={onSuggestionsFetchRequested}
         onSuggestionsClearRequested={onSuggestionsClearRequested}
@@ -55,10 +56,6 @@ export default function GuessBox(props) {
         inputProps={inputProps}
         theme = {theme}
         />
-      
-  return (
-    <div>
-    {prompt}
     </div>
   )
 }
