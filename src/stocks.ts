@@ -11,17 +11,6 @@ const stocks = [
     "Founded": 1902
   },
   {
-    "Symbol": "AOS",
-    "Security": "A. O. Smith",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Building Products",
-    "Headquarters Location": "Milwaukee, Wisconsin",
-    "Date first added": "2017-07-26",
-    "CIK": "0000091142",
-    "Founded": 1916
-  },
-  {
     "Symbol": "ABT",
     "Security": "Abbott",
     "SEC filings": "reports",
@@ -32,28 +21,8 @@ const stocks = [
     "CIK": "0000001800",
     "Founded": 1888
   },
-  {
-    "Symbol": "ABBV",
-    "Security": "AbbVie",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Pharmaceuticals",
-    "Headquarters Location": "North Chicago, Illinois",
-    "Date first added": "2012-12-31",
-    "CIK": "0001551152",
-    "Founded": "2013 (1888)"
-  },
-  {
-    "Symbol": "ABMD",
-    "Security": "Abiomed",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Danvers, Massachusetts",
-    "Date first added": "2018-05-31",
-    "CIK": "0000815094",
-    "Founded": 1981
-  },
+
+
   {
     "Symbol": "ACN",
     "Security": "Accenture",
@@ -77,17 +46,6 @@ const stocks = [
     "Founded": 2008
   },
   {
-    "Symbol": "ADM",
-    "Security": "ADM",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Staples",
-    "GICS Sub-Industry": "Agricultural Products",
-    "Headquarters Location": "Chicago, Illinois",
-    "Date first added": "1981-07-29",
-    "CIK": "0000007084",
-    "Founded": 1902
-  },
-  {
     "Symbol": "ADBE",
     "Security": "Adobe",
     "SEC filings": "reports",
@@ -97,17 +55,6 @@ const stocks = [
     "Date first added": "1997-05-05",
     "CIK": "0000796343",
     "Founded": 1982
-  },
-  {
-    "Symbol": "ADP",
-    "Security": "ADP",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Data Processing & Outsourced Services",
-    "Headquarters Location": "Roseland, New Jersey",
-    "Date first added": "1981-03-31",
-    "CIK": "0000008670",
-    "Founded": 1949
   },
   {
     "Symbol": "AAP",
@@ -121,17 +68,6 @@ const stocks = [
     "Founded": 1932
   },
   {
-    "Symbol": "AES",
-    "Security": "AES",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Independent Power Producers & Energy Traders",
-    "Headquarters Location": "Arlington, Virginia",
-    "Date first added": "1998-10-02",
-    "CIK": "0000874761",
-    "Founded": 1981
-  },
-  {
     "Symbol": "AFL",
     "Security": "Aflac",
     "SEC filings": "reports",
@@ -142,50 +78,8 @@ const stocks = [
     "CIK": "0000004977",
     "Founded": 1955
   },
-  {
-    "Symbol": "A",
-    "Security": "Agilent Technologies",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Santa Clara, California",
-    "Date first added": "2000-06-05",
-    "CIK": "0001090872",
-    "Founded": 1999
-  },
-  {
-    "Symbol": "AIG",
-    "Security": "AIG",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Property & Casualty Insurance",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "1980-03-31",
-    "CIK": "0000005272",
-    "Founded": 1919
-  },
-  {
-    "Symbol": "APD",
-    "Security": "Air Products",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Industrial Gases",
-    "Headquarters Location": "Allentown, Pennsylvania",
-    "Date first added": "1985-04-30",
-    "CIK": "0000002969",
-    "Founded": 1940
-  },
-  {
-    "Symbol": "AKAM",
-    "Security": "Akamai",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Internet Services & Infrastructure",
-    "Headquarters Location": "Cambridge, Massachusetts",
-    "Date first added": "2007-07-12",
-    "CIK": "0001086222",
-    "Founded": 1998
-  },
+
+ 
   {
     "Symbol": "ALK",
     "Security": "Alaska Air Group",
@@ -196,61 +90,6 @@ const stocks = [
     "Date first added": "2016-05-13",
     "CIK": "0000766421",
     "Founded": 1985
-  },
-  {
-    "Symbol": "ALB",
-    "Security": "Albemarle",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Specialty Chemicals",
-    "Headquarters Location": "Charlotte, North Carolina",
-    "Date first added": "2016-07-01",
-    "CIK": "0000915913",
-    "Founded": 1994
-  },
-  {
-    "Symbol": "ARE",
-    "Security": "Alexandria",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Office REITs",
-    "Headquarters Location": "Pasadena, California",
-    "Date first added": "2017-03-20",
-    "CIK": "0001035443",
-    "Founded": 1994
-  },
-  {
-    "Symbol": "ALGN",
-    "Security": "Align",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Supplies",
-    "Headquarters Location": "San Jose, California",
-    "Date first added": "2017-06-19",
-    "CIK": "0001097149",
-    "Founded": 1997
-  },
-  {
-    "Symbol": "ALLE",
-    "Security": "Allegion",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Building Products",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "2013-12-02",
-    "CIK": "0001579241",
-    "Founded": 1908
-  },
-  {
-    "Symbol": "LNT",
-    "Security": "Alliant Energy",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Electric Utilities",
-    "Headquarters Location": "Madison, Wisconsin",
-    "Date first added": "2016-07-01",
-    "CIK": "0000352541",
-    "Founded": 1917
   },
   {
     "Symbol": "ALL",
@@ -274,17 +113,7 @@ const stocks = [
     "CIK": "0001652044",
     "Founded": 1998
   },
-  {
-    "Symbol": "MO",
-    "Security": "Altria",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Staples",
-    "GICS Sub-Industry": "Tobacco",
-    "Headquarters Location": "Richmond, Virginia",
-    "Date first added": "1957-03-04",
-    "CIK": "0000764180",
-    "Founded": 1985
-  },
+
   {
     "Symbol": "AMZN",
     "Security": "Amazon",
@@ -296,39 +125,7 @@ const stocks = [
     "CIK": "0001018724",
     "Founded": 1994
   },
-  {
-    "Symbol": "AMCR",
-    "Security": "Amcor",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Paper Packaging",
-    "Headquarters Location": "Warmley, Bristol, United Kingdom",
-    "Date first added": "2019-06-07",
-    "CIK": "0001748790",
-    "Founded": "2019 (1860)"
-  },
-  {
-    "Symbol": "AMD",
-    "Security": "AMD",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Semiconductors",
-    "Headquarters Location": "Santa Clara, California",
-    "Date first added": "",
-    "CIK": "0000002488",
-    "Founded": 1969
-  },
-  {
-    "Symbol": "AEE",
-    "Security": "Ameren",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Multi-Utilities",
-    "Headquarters Location": "St. Louis, Missouri",
-    "Date first added": "1991-09-19",
-    "CIK": "0001002910",
-    "Founded": 1902
-  },
+ 
   {
     "Symbol": "AAL",
     "Security": "American Airlines Group",
@@ -340,17 +137,7 @@ const stocks = [
     "CIK": "0000006201",
     "Founded": 1934
   },
-  {
-    "Symbol": "AEP",
-    "Security": "American Electric Power",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Electric Utilities",
-    "Headquarters Location": "Columbus, Ohio",
-    "Date first added": "1957-03-04",
-    "CIK": "0000004904",
-    "Founded": 1906
-  },
+
   {
     "Symbol": "AXP",
     "Security": "American Express",
@@ -362,28 +149,7 @@ const stocks = [
     "CIK": "0000004962",
     "Founded": 1850
   },
-  {
-    "Symbol": "AMT",
-    "Security": "American Tower",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Specialized REITs",
-    "Headquarters Location": "Boston, Massachusetts",
-    "Date first added": "2007-11-19",
-    "CIK": "0001053507",
-    "Founded": 1995
-  },
-  {
-    "Symbol": "AWK",
-    "Security": "American Water",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Water Utilities",
-    "Headquarters Location": "Camden, New Jersey",
-    "Date first added": "2016-03-04",
-    "CIK": "0001410636",
-    "Founded": 1886
-  },
+
   {
     "Symbol": "AMP",
     "Security": "Ameriprise Financial",
@@ -395,28 +161,7 @@ const stocks = [
     "CIK": "0000820027",
     "Founded": 1894
   },
-  {
-    "Symbol": "ABC",
-    "Security": "AmerisourceBergen",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Distributors",
-    "Headquarters Location": "Chesterbrook, Pennsylvania",
-    "Date first added": "2001-08-30",
-    "CIK": "0001140859",
-    "Founded": 1985
-  },
-  {
-    "Symbol": "AME",
-    "Security": "Ametek",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Electrical Components & Equipment",
-    "Headquarters Location": "Berwyn, Pennsylvania",
-    "Date first added": "2013-09-23",
-    "CIK": "0001037868",
-    "Founded": 1930
-  },
+
   {
     "Symbol": "AMGN",
     "Security": "Amgen",
@@ -428,72 +173,8 @@ const stocks = [
     "CIK": "0000318154",
     "Founded": 1980
   },
-  {
-    "Symbol": "APH",
-    "Security": "Amphenol",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Electronic Components",
-    "Headquarters Location": "Wallingford, Connecticut",
-    "Date first added": "2008-09-30",
-    "CIK": "0000820313",
-    "Founded": 1932
-  },
-  {
-    "Symbol": "ADI",
-    "Security": "Analog Devices",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Semiconductors",
-    "Headquarters Location": "Wilmington, Massachusetts",
-    "Date first added": "1999-10-12",
-    "CIK": "0000006281",
-    "Founded": 1965
-  },
-  {
-    "Symbol": "ANSS",
-    "Security": "Ansys",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Application Software",
-    "Headquarters Location": "Canonsburg, Pennsylvania",
-    "Date first added": "2017-06-19",
-    "CIK": "0001013462",
-    "Founded": 1969
-  },
-  {
-    "Symbol": "ANTM",
-    "Security": "Anthem",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Managed Health Care",
-    "Headquarters Location": "Indianapolis, Indiana",
-    "Date first added": "2002-07-25",
-    "CIK": "0001156039",
-    "Founded": "2014 (1946)"
-  },
-  {
-    "Symbol": "AON",
-    "Security": "Aon",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Insurance Brokers",
-    "Headquarters Location": "London, UK",
-    "Date first added": "1996-04-23",
-    "CIK": "0000315293",
-    "Founded": "1982 (1919)"
-  },
-  {
-    "Symbol": "APA",
-    "Security": "APA Corporation",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "1997-07-28",
-    "CIK": "0000006769",
-    "Founded": 1954
-  },
+
+
   {
     "Symbol": "AAPL",
     "Security": "Apple",
@@ -505,50 +186,8 @@ const stocks = [
     "CIK": "0000320193",
     "Founded": 1977
   },
-  {
-    "Symbol": "AMAT",
-    "Security": "Applied Materials",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Semiconductor Equipment",
-    "Headquarters Location": "Santa Clara, California",
-    "Date first added": "1995-03-16",
-    "CIK": "0000006951",
-    "Founded": 1967
-  },
-  {
-    "Symbol": "APTV",
-    "Security": "Aptiv",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Auto Parts & Equipment",
-    "Headquarters Location": "Dublin, Ireland",
-    "Date first added": "2012-12-24",
-    "CIK": "0001521332",
-    "Founded": 1994
-  },
-  {
-    "Symbol": "ANET",
-    "Security": "Arista",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Communications Equipment",
-    "Headquarters Location": "Santa Clara, California",
-    "Date first added": "2018-08-28",
-    "CIK": "0001596532",
-    "Founded": 2004
-  },
-  {
-    "Symbol": "AIZ",
-    "Security": "Assurant",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Multi-line Insurance",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "2007-04-10",
-    "CIK": "0001267238",
-    "Founded": 1892
-  },
+
+
   {
     "Symbol": "T",
     "Security": "AT&T",
@@ -593,50 +232,7 @@ const stocks = [
     "CIK": "0000866787",
     "Founded": 1979
   },
-  {
-    "Symbol": "AVB",
-    "Security": "AvalonBay Communities",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Residential REITs",
-    "Headquarters Location": "Arlington, Virginia[3]",
-    "Date first added": "2007-01-10",
-    "CIK": "0000915912",
-    "Founded": 1978
-  },
-  {
-    "Symbol": "AVY",
-    "Security": "Avery Dennison",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Paper Packaging",
-    "Headquarters Location": "Glendale, California",
-    "Date first added": "1987-12-31",
-    "CIK": "0000008818",
-    "Founded": 1990
-  },
-  {
-    "Symbol": "BKR",
-    "Security": "Baker Hughes",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Equipment & Services",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "2017-07-07",
-    "CIK": "0001701605",
-    "Founded": 2017
-  },
-  {
-    "Symbol": "BLL",
-    "Security": "Ball",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Metal & Glass Containers",
-    "Headquarters Location": "Broomfield, Colorado",
-    "Date first added": "1984-10-31",
-    "CIK": "0000009389",
-    "Founded": 1880
-  },
+
   {
     "Symbol": "BAC",
     "Security": "Bank of America",
@@ -659,39 +255,9 @@ const stocks = [
     "CIK": "0000701985",
     "Founded": 1963
   },
-  {
-    "Symbol": "BAX",
-    "Security": "Baxter",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Deerfield, Illinois",
-    "Date first added": "1972-09-30",
-    "CIK": "0000010456",
-    "Founded": 1931
-  },
-  {
-    "Symbol": "BDX",
-    "Security": "Becton Dickinson",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Franklin Lakes, New Jersey",
-    "Date first added": "1972-09-30",
-    "CIK": "0000010795",
-    "Founded": 1897
-  },
-  {
-    "Symbol": "WRB",
-    "Security": "Berkley",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Property & Casualty Insurance",
-    "Headquarters Location": "Greenwich, Connecticut",
-    "Date first added": "2019-12-05",
-    "CIK": "0000011544",
-    "Founded": 1967
-  },
+
+ 
+ 
   {
     "Symbol": "BRK.B",
     "Security": "Berkshire Hathaway",
@@ -714,28 +280,8 @@ const stocks = [
     "CIK": "0000764478",
     "Founded": 1966
   },
-  {
-    "Symbol": "BIO",
-    "Security": "Bio-Rad",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Life Sciences Tools & Services",
-    "Headquarters Location": "Hercules, California",
-    "Date first added": "2020-06-22",
-    "CIK": "0000012208",
-    "Founded": 1952
-  },
-  {
-    "Symbol": "TECH",
-    "Security": "Bio-Techne",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Life Sciences Tools & Services",
-    "Headquarters Location": "Minneapolis, Minnesota",
-    "Date first added": "2021-08-30",
-    "CIK": "0000842023",
-    "Founded": 1976
-  },
+
+
   {
     "Symbol": "BIIB",
     "Security": "Biogen",
@@ -791,39 +337,8 @@ const stocks = [
     "CIK": "0001075531",
     "Founded": 1996
   },
-  {
-    "Symbol": "BWA",
-    "Security": "BorgWarner",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Auto Parts & Equipment",
-    "Headquarters Location": "Auburn Hills, Michigan",
-    "Date first added": "2011-12-19",
-    "CIK": "0000908255",
-    "Founded": 1880
-  },
-  {
-    "Symbol": "BXP",
-    "Security": "Boston Properties",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Office REITs",
-    "Headquarters Location": "Boston, Massachusetts",
-    "Date first added": "2006-04-03",
-    "CIK": "0001037540",
-    "Founded": 1970
-  },
-  {
-    "Symbol": "BSX",
-    "Security": "Boston Scientific",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Marlborough, Massachusetts[4]",
-    "Date first added": "1995-02-24",
-    "CIK": "0000885725",
-    "Founded": 1979
-  },
+
+
   {
     "Symbol": "BMY",
     "Security": "Bristol Myers Squibb",
@@ -846,72 +361,8 @@ const stocks = [
     "CIK": "0001730168",
     "Founded": 1961
   },
-  {
-    "Symbol": "BR",
-    "Security": "Broadridge",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Data Processing & Outsourced Services",
-    "Headquarters Location": "Lake Success, New York",
-    "Date first added": "2018-06-18",
-    "CIK": "0001383312",
-    "Founded": 1962
-  },
-  {
-    "Symbol": "BRO",
-    "Security": "Brown & Brown",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Insurance Brokers",
-    "Headquarters Location": "Daytona Beach, Florida",
-    "Date first added": "2021-09-20",
-    "CIK": "0000079282",
-    "Founded": 1939
-  },
-  {
-    "Symbol": "BF.B",
-    "Security": "Brown–Forman",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Staples",
-    "GICS Sub-Industry": "Distillers & Vintners",
-    "Headquarters Location": "Louisville, Kentucky",
-    "Date first added": "1982-10-31",
-    "CIK": "0000014693",
-    "Founded": 1870
-  },
-  {
-    "Symbol": "CHRW",
-    "Security": "C.H. Robinson",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Air Freight & Logistics",
-    "Headquarters Location": "Eden Prairie, Minnesota",
-    "Date first added": "2007-03-02",
-    "CIK": "0001043277",
-    "Founded": 1905
-  },
-  {
-    "Symbol": "CDNS",
-    "Security": "Cadence",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Application Software",
-    "Headquarters Location": "San Jose, California",
-    "Date first added": "2017-09-18",
-    "CIK": "0000813672",
-    "Founded": 1988
-  },
-  {
-    "Symbol": "CZR",
-    "Security": "Caesars Entertainment",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Casinos & Gaming",
-    "Headquarters Location": "Reno, Nevada",
-    "Date first added": "2021-03-22",
-    "CIK": "0001590895",
-    "Founded": 1973
-  },
+
+ 
   {
     "Symbol": "CPB",
     "Security": "Campbell's",
@@ -934,17 +385,7 @@ const stocks = [
     "CIK": "0000927628",
     "Founded": 1994
   },
-  {
-    "Symbol": "CAH",
-    "Security": "Cardinal Health",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Distributors",
-    "Headquarters Location": "Dublin, Ohio",
-    "Date first added": "1997-05-27",
-    "CIK": "0000721371",
-    "Founded": 1971
-  },
+
   {
     "Symbol": "KMX",
     "Security": "CarMax",
@@ -967,149 +408,8 @@ const stocks = [
     "CIK": "0000815097",
     "Founded": 1972
   },
-  {
-    "Symbol": "CARR",
-    "Security": "Carrier",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Building Products",
-    "Headquarters Location": "Palm Beach Gardens, Florida",
-    "Date first added": "2020-04-03",
-    "CIK": "0001783180",
-    "Founded": "2020 (1915)"
-  },
-  {
-    "Symbol": "CTLT",
-    "Security": "Catalent",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Pharmaceuticals",
-    "Headquarters Location": "Somerset, New Jersey",
-    "Date first added": "2020-09-21",
-    "CIK": "0001596783",
-    "Founded": 2007
-  },
-  {
-    "Symbol": "CAT",
-    "Security": "Caterpillar",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Construction Machinery & Heavy Trucks",
-    "Headquarters Location": "Deerfield, Illinois",
-    "Date first added": "1957-03-04",
-    "CIK": "0000018230",
-    "Founded": 1925
-  },
-  {
-    "Symbol": "CBOE",
-    "Security": "Cboe",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Financial Exchanges & Data",
-    "Headquarters Location": "Chicago, Illinois",
-    "Date first added": "2017-03-01",
-    "CIK": "0001374310",
-    "Founded": 1973
-  },
-  {
-    "Symbol": "CBRE",
-    "Security": "CBRE",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Real Estate Services",
-    "Headquarters Location": "Dallas, Texas",
-    "Date first added": "2006-11-10",
-    "CIK": "0001138118",
-    "Founded": 1906
-  },
-  {
-    "Symbol": "CDW",
-    "Security": "CDW",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Technology Distributors",
-    "Headquarters Location": "Lincolnshire, Illinois",
-    "Date first added": "2019-09-23",
-    "CIK": "0001402057",
-    "Founded": 1984
-  },
-  {
-    "Symbol": "CE",
-    "Security": "Celanese",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Specialty Chemicals",
-    "Headquarters Location": "Irving, Texas",
-    "Date first added": "2018-12-24",
-    "CIK": "0001306830",
-    "Founded": 1918
-  },
-  {
-    "Symbol": "CNC",
-    "Security": "Centene",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Managed Health Care",
-    "Headquarters Location": "St. Louis, Missouri",
-    "Date first added": "2016-03-30",
-    "CIK": "0001071739",
-    "Founded": 1984
-  },
-  {
-    "Symbol": "CNP",
-    "Security": "CenterPoint Energy",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Multi-Utilities",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "1985-07-31",
-    "CIK": "0001130310",
-    "Founded": 1882
-  },
-  {
-    "Symbol": "CDAY",
-    "Security": "Ceridian",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Application Software",
-    "Headquarters Location": "Minneapolis, Minnesota",
-    "Date first added": "2021-09-20",
-    "CIK": "0001725057",
-    "Founded": 1992
-  },
-  {
-    "Symbol": "CERN",
-    "Security": "Cerner",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Technology",
-    "Headquarters Location": "North Kansas City, Missouri",
-    "Date first added": "2010-04-30",
-    "CIK": "0000804753",
-    "Founded": 1979
-  },
-  {
-    "Symbol": "CF",
-    "Security": "CF Industries",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Fertilizers & Agricultural Chemicals",
-    "Headquarters Location": "Deerfield, Illinois",
-    "Date first added": "2008-08-27",
-    "CIK": "0001324404",
-    "Founded": 1946
-  },
-  {
-    "Symbol": "CRL",
-    "Security": "Charles River",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Life Sciences Tools & Services",
-    "Headquarters Location": "Wilmington, Massachusetts",
-    "Date first added": "2021-05-14",
-    "CIK": "0001100682",
-    "Founded": 1947
-  },
+
+
   {
     "Symbol": "SCHW",
     "Security": "Charles Schwab",
@@ -1121,17 +421,7 @@ const stocks = [
     "CIK": "0000316709",
     "Founded": 1971
   },
-  {
-    "Symbol": "CHTR",
-    "Security": "Charter Communications",
-    "SEC filings": "reports",
-    "GICS Sector": "Communication Services",
-    "GICS Sub-Industry": "Cable & Satellite",
-    "Headquarters Location": "Stamford, Connecticut",
-    "Date first added": "2016-09-08",
-    "CIK": "0001091667",
-    "Founded": 1993
-  },
+
   {
     "Symbol": "CVX",
     "Security": "Chevron",
@@ -1154,61 +444,10 @@ const stocks = [
     "CIK": "0001058090",
     "Founded": 1993
   },
-  {
-    "Symbol": "CB",
-    "Security": "Chubb",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Property & Casualty Insurance",
-    "Headquarters Location": "Zurich, Switzerland",
-    "Date first added": "2010-07-15",
-    "CIK": "0000896159",
-    "Founded": 1985
-  },
-  {
-    "Symbol": "CHD",
-    "Security": "Church & Dwight",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Staples",
-    "GICS Sub-Industry": "Household Products",
-    "Headquarters Location": "Ewing, New Jersey",
-    "Date first added": "2015-12-29",
-    "CIK": "0000313927",
-    "Founded": 1847
-  },
-  {
-    "Symbol": "CI",
-    "Security": "Cigna",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Managed Health Care",
-    "Headquarters Location": "Bloomfield, Connecticut",
-    "Date first added": "1976-06-30",
-    "CIK": "0001739940",
-    "Founded": 1982
-  },
-  {
-    "Symbol": "CINF",
-    "Security": "Cincinnati Financial",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Property & Casualty Insurance",
-    "Headquarters Location": "Fairfield, Ohio",
-    "Date first added": "1997-12-18",
-    "CIK": "0000020286",
-    "Founded": 1950
-  },
-  {
-    "Symbol": "CTAS",
-    "Security": "Cintas",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Diversified Support Services",
-    "Headquarters Location": "Mason, Ohio",
-    "Date first added": "2001-03-01",
-    "CIK": "0000723254",
-    "Founded": 1929
-  },
+
+
+
+
   {
     "Symbol": "CSCO",
     "Security": "Cisco",
@@ -1231,28 +470,8 @@ const stocks = [
     "CIK": "0000831001",
     "Founded": 1998
   },
-  {
-    "Symbol": "CFG",
-    "Security": "Citizens",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Regional Banks",
-    "Headquarters Location": "Providence, Rhode Island",
-    "Date first added": "2016-01-29",
-    "CIK": "0000759944",
-    "Founded": 1828
-  },
-  {
-    "Symbol": "CTXS",
-    "Security": "Citrix",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Application Software",
-    "Headquarters Location": "Fort Lauderdale, Florida",
-    "Date first added": "1999-12-01",
-    "CIK": "0000877890",
-    "Founded": 1989
-  },
+
+  
   {
     "Symbol": "CLX",
     "Security": "Clorox",
@@ -1264,28 +483,7 @@ const stocks = [
     "CIK": "0000021076",
     "Founded": 1913
   },
-  {
-    "Symbol": "CME",
-    "Security": "CME Group",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Financial Exchanges & Data",
-    "Headquarters Location": "Chicago, Illinois",
-    "Date first added": "2006-08-11",
-    "CIK": "0001156375",
-    "Founded": 1848
-  },
-  {
-    "Symbol": "CMS",
-    "Security": "CMS Energy",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Multi-Utilities",
-    "Headquarters Location": "Jackson, Michigan",
-    "Date first added": "1999-05-03",
-    "CIK": "0000811156",
-    "Founded": 1886
-  },
+
   {
     "Symbol": "KO",
     "Security": "Coca-Cola",
@@ -1297,17 +495,7 @@ const stocks = [
     "CIK": "0000021344",
     "Founded": 1886
   },
-  {
-    "Symbol": "CTSH",
-    "Security": "Cognizant",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "IT Consulting & Other Services",
-    "Headquarters Location": "Teaneck, New Jersey",
-    "Date first added": "2006-11-17",
-    "CIK": "0001058290",
-    "Founded": 1994
-  },
+
   {
     "Symbol": "CL",
     "Security": "Colgate-Palmolive",
@@ -1330,17 +518,7 @@ const stocks = [
     "CIK": "0001166691",
     "Founded": 1963
   },
-  {
-    "Symbol": "CMA",
-    "Security": "Comerica",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Diversified Banks",
-    "Headquarters Location": "Dallas, Texas",
-    "Date first added": "1995-12-01",
-    "CIK": "0000028412",
-    "Founded": 1849
-  },
+
   {
     "Symbol": "CAG",
     "Security": "Conagra Brands",
@@ -1352,28 +530,8 @@ const stocks = [
     "CIK": "0000023217",
     "Founded": 1919
   },
-  {
-    "Symbol": "COP",
-    "Security": "ConocoPhillips",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "1957-03-04",
-    "CIK": "0001163165",
-    "Founded": 2002
-  },
-  {
-    "Symbol": "ED",
-    "Security": "Con Edison",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Electric Utilities",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "",
-    "CIK": "0001047862",
-    "Founded": 1823
-  },
+
+
   {
     "Symbol": "STZ",
     "Security": "Constellation Brands",
@@ -1385,39 +543,7 @@ const stocks = [
     "CIK": "0000016918",
     "Founded": 1945
   },
-  {
-    "Symbol": "CEG",
-    "Security": "Constellation Energy",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Multi-Utilities",
-    "Headquarters Location": "Baltimore, Maryland",
-    "Date first added": "2022-02-02",
-    "CIK": "0001868275",
-    "Founded": 1999
-  },
-  {
-    "Symbol": "COO",
-    "Security": "CooperCompanies",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Supplies",
-    "Headquarters Location": "San Ramon, California",
-    "Date first added": "2016-09-23",
-    "CIK": "0000711404",
-    "Founded": 1958
-  },
-  {
-    "Symbol": "CPRT",
-    "Security": "Copart",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Diversified Support Services",
-    "Headquarters Location": "Dallas, Texas",
-    "Date first added": "2018-07-02",
-    "CIK": "0000900075",
-    "Founded": 1982
-  },
+
   {
     "Symbol": "GLW",
     "Security": "Corning",
@@ -1429,17 +555,7 @@ const stocks = [
     "CIK": "0000024741",
     "Founded": 1851
   },
-  {
-    "Symbol": "CTVA",
-    "Security": "Corteva",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Fertilizers & Agricultural Chemicals",
-    "Headquarters Location": "Wilmington, Delaware",
-    "Date first added": "2019-06-03",
-    "CIK": "0001755672",
-    "Founded": 2019
-  },
+ 
   {
     "Symbol": "COST",
     "Security": "Costco",
@@ -1451,50 +567,9 @@ const stocks = [
     "CIK": "0000909832",
     "Founded": 1976
   },
-  {
-    "Symbol": "CTRA",
-    "Security": "Coterra",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "2008-06-23",
-    "CIK": "0000858470",
-    "Founded": "2021 (1989)"
-  },
-  {
-    "Symbol": "CCI",
-    "Security": "Crown Castle",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Specialized REITs",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "2012-03-14",
-    "CIK": "0001051470",
-    "Founded": 1994
-  },
-  {
-    "Symbol": "CSX",
-    "Security": "CSX",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Railroads",
-    "Headquarters Location": "Jacksonville, Florida",
-    "Date first added": "1967-09-30",
-    "CIK": "0000277948",
-    "Founded": 1980
-  },
-  {
-    "Symbol": "CMI",
-    "Security": "Cummins",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "Columbus, Indiana",
-    "Date first added": "1965-03-31",
-    "CIK": "0000026172",
-    "Founded": 1919
-  },
+  
+
+
   {
     "Symbol": "CVS",
     "Security": "CVS Health",
@@ -1506,61 +581,11 @@ const stocks = [
     "CIK": "0000064803",
     "Founded": 1996
   },
-  {
-    "Symbol": "DHI",
-    "Security": "D.R. Horton",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Homebuilding",
-    "Headquarters Location": "Arlington, Texas",
-    "Date first added": "2005-06-22",
-    "CIK": "0000882184",
-    "Founded": 1978
-  },
-  {
-    "Symbol": "DHR",
-    "Security": "Danaher",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Washington, D.C.",
-    "Date first added": "",
-    "CIK": "0000313616",
-    "Founded": 1969
-  },
-  {
-    "Symbol": "DRI",
-    "Security": "Darden",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Restaurants",
-    "Headquarters Location": "Orlando, Florida",
-    "Date first added": "",
-    "CIK": "0000940944",
-    "Founded": 1938
-  },
-  {
-    "Symbol": "DVA",
-    "Security": "DaVita",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Facilities",
-    "Headquarters Location": "Denver, Colorado",
-    "Date first added": "2008-07-31",
-    "CIK": "0000927066",
-    "Founded": 1979
-  },
-  {
-    "Symbol": "DE",
-    "Security": "Deere & Co.",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Agricultural & Farm Machinery",
-    "Headquarters Location": "Moline, Illinois",
-    "Date first added": "1957-03-04",
-    "CIK": "0000315189",
-    "Founded": 1837
-  },
+
+
+
+  
+
   {
     "Symbol": "DAL",
     "Security": "Delta Air Lines",
@@ -1572,39 +597,8 @@ const stocks = [
     "CIK": "0000027904",
     "Founded": 1929
   },
-  {
-    "Symbol": "XRAY",
-    "Security": "Dentsply Sirona",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Supplies",
-    "Headquarters Location": "Charlotte, North Carolina",
-    "Date first added": "2008-11-14",
-    "CIK": "0000818479",
-    "Founded": "2016 (1969)"
-  },
-  {
-    "Symbol": "DVN",
-    "Security": "Devon",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
-    "Headquarters Location": "Oklahoma City, Oklahoma",
-    "Date first added": "2000-08-30",
-    "CIK": "0001090012",
-    "Founded": 1971
-  },
-  {
-    "Symbol": "DXCM",
-    "Security": "DexCom",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "San Diego, California",
-    "Date first added": "2020-05-12",
-    "CIK": "0001093557",
-    "Founded": 1999
-  },
+ 
+
   {
     "Symbol": "FANG",
     "Security": "Diamondback",
@@ -1616,17 +610,7 @@ const stocks = [
     "CIK": "0001539838",
     "Founded": 2007
   },
-  {
-    "Symbol": "DLR",
-    "Security": "Digital Realty",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Specialized REITs",
-    "Headquarters Location": "Austin, Texas",
-    "Date first added": "2016-05-18",
-    "CIK": "0001297996",
-    "Founded": 2004
-  },
+
   {
     "Symbol": "DFS",
     "Security": "Discover",
@@ -1693,17 +677,7 @@ const stocks = [
     "CIK": "0000935703",
     "Founded": 1986
   },
-  {
-    "Symbol": "D",
-    "Security": "Dominion Energy",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Electric Utilities",
-    "Headquarters Location": "Richmond, Virginia",
-    "Date first added": "",
-    "CIK": "0000715957",
-    "Founded": 1983
-  },
+
   {
     "Symbol": "DPZ",
     "Security": "Domino's",
@@ -1715,61 +689,11 @@ const stocks = [
     "CIK": "0001286681",
     "Founded": 1960
   },
-  {
-    "Symbol": "DOV",
-    "Security": "Dover",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "Downers Grove, Illinois",
-    "Date first added": "1985-10-31",
-    "CIK": "0000029905",
-    "Founded": 1955
-  },
-  {
-    "Symbol": "DOW",
-    "Security": "Dow",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Commodity Chemicals",
-    "Headquarters Location": "Midland, Michigan",
-    "Date first added": "2019-04-01",
-    "CIK": "0001751788",
-    "Founded": 2019
-  },
-  {
-    "Symbol": "DTE",
-    "Security": "DTE",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Multi-Utilities",
-    "Headquarters Location": "Detroit, Michigan",
-    "Date first added": "1957-03-04",
-    "CIK": "0000936340",
-    "Founded": 1995
-  },
-  {
-    "Symbol": "DUK",
-    "Security": "Duke Energy",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Electric Utilities",
-    "Headquarters Location": "Charlotte, North Carolina",
-    "Date first added": "1976-06-30",
-    "CIK": "0001326160",
-    "Founded": 1904
-  },
-  {
-    "Symbol": "DRE",
-    "Security": "Duke Realty",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Industrial REITs",
-    "Headquarters Location": "Indianapolis, Indiana",
-    "Date first added": "2017-07-26",
-    "CIK": "0000783280",
-    "Founded": 1972
-  },
+
+
+
+ 
+  
   {
     "Symbol": "DD",
     "Security": "DuPont",
@@ -1781,39 +705,7 @@ const stocks = [
     "CIK": "0001666700",
     "Founded": 2017
   },
-  {
-    "Symbol": "DXC",
-    "Security": "DXC Technology",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "IT Consulting & Other Services",
-    "Headquarters Location": "Tysons Corner, Virginia",
-    "Date first added": "2017-04-04",
-    "CIK": "0001688568",
-    "Founded": 2017
-  },
-  {
-    "Symbol": "EMN",
-    "Security": "Eastman",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Diversified Chemicals",
-    "Headquarters Location": "Kingsport, Tennessee",
-    "Date first added": "1994-01-01",
-    "CIK": "0000915389",
-    "Founded": 1920
-  },
-  {
-    "Symbol": "ETN",
-    "Security": "Eaton",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Electrical Components & Equipment",
-    "Headquarters Location": "Dublin, Ireland",
-    "Date first added": "",
-    "CIK": "0001551182",
-    "Founded": 1911
-  },
+
   {
     "Symbol": "EBAY",
     "Security": "eBay",
@@ -1825,39 +717,9 @@ const stocks = [
     "CIK": "0001065088",
     "Founded": 1995
   },
-  {
-    "Symbol": "ECL",
-    "Security": "Ecolab",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Specialty Chemicals",
-    "Headquarters Location": "Saint Paul, Minnesota",
-    "Date first added": "1989-01-31",
-    "CIK": "0000031462",
-    "Founded": 1923
-  },
-  {
-    "Symbol": "EIX",
-    "Security": "Edison International",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Electric Utilities",
-    "Headquarters Location": "Rosemead, California",
-    "Date first added": "1957-03-04",
-    "CIK": "0000827052",
-    "Founded": 1886
-  },
-  {
-    "Symbol": "EW",
-    "Security": "Edwards Lifesciences",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Irvine, California",
-    "Date first added": "2011-04-01",
-    "CIK": "0001099800",
-    "Founded": 1958
-  },
+
+
+ 
   {
     "Symbol": "EA",
     "Security": "Electronic Arts",
@@ -1869,61 +731,11 @@ const stocks = [
     "CIK": "0000712515",
     "Founded": 1982
   },
-  {
-    "Symbol": "EMR",
-    "Security": "Emerson",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Electrical Components & Equipment",
-    "Headquarters Location": "Ferguson, Missouri",
-    "Date first added": "1965-03-31",
-    "CIK": "0000032604",
-    "Founded": 1890
-  },
-  {
-    "Symbol": "ENPH",
-    "Security": "Enphase",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Electronic Components",
-    "Headquarters Location": "Fremont, California",
-    "Date first added": "2021-01-07",
-    "CIK": "0001463101",
-    "Founded": 2006
-  },
-  {
-    "Symbol": "ETR",
-    "Security": "Entergy",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Electric Utilities",
-    "Headquarters Location": "New Orleans, Louisiana",
-    "Date first added": "1957-03-04",
-    "CIK": "0000065984",
-    "Founded": 1913
-  },
-  {
-    "Symbol": "EOG",
-    "Security": "EOG Resources",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "2000-11-02",
-    "CIK": "0000821189",
-    "Founded": 1999
-  },
-  {
-    "Symbol": "EPAM",
-    "Security": "EPAM",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "IT Consulting & Other Services",
-    "Headquarters Location": "Newtown, Pennsylvania",
-    "Date first added": "2021-12-14",
-    "CIK": "0001352010",
-    "Founded": 1993
-  },
+
+ 
+
+
+  
   {
     "Symbol": "EFX",
     "Security": "Equifax",
@@ -1935,39 +747,9 @@ const stocks = [
     "CIK": "0000033185",
     "Founded": 1899
   },
-  {
-    "Symbol": "EQIX",
-    "Security": "Equinix",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Specialized REITs",
-    "Headquarters Location": "Redwood City, California",
-    "Date first added": "2015-03-20",
-    "CIK": "0001101239",
-    "Founded": 1998
-  },
-  {
-    "Symbol": "EQR",
-    "Security": "Equity Residential",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Residential REITs",
-    "Headquarters Location": "Chicago, Illinois",
-    "Date first added": "2001-12-03",
-    "CIK": "0000906107",
-    "Founded": 1969
-  },
-  {
-    "Symbol": "ESS",
-    "Security": "Essex",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Residential REITs",
-    "Headquarters Location": "San Mateo, California",
-    "Date first added": "2014-04-02",
-    "CIK": "0000920522",
-    "Founded": 1971
-  },
+
+ 
+  
   {
     "Symbol": "EL",
     "Security": "Estée Lauder Companies",
@@ -1990,50 +772,9 @@ const stocks = [
     "CIK": "0001370637",
     "Founded": 2005
   },
-  {
-    "Symbol": "RE",
-    "Security": "Everest",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Reinsurance",
-    "Headquarters Location": "Hamilton, Bermuda",
-    "Date first added": "2017-06-19",
-    "CIK": "0001095073",
-    "Founded": 1973
-  },
-  {
-    "Symbol": "EVRG",
-    "Security": "Evergy",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Electric Utilities",
-    "Headquarters Location": "Kansas City, Missouri",
-    "Date first added": "2018-06-05",
-    "CIK": "0001711269",
-    "Founded": 1909
-  },
-  {
-    "Symbol": "ES",
-    "Security": "Eversource",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Multi-Utilities",
-    "Headquarters Location": "Hartford, Connecticut",
-    "Date first added": 2009,
-    "CIK": "0000072741",
-    "Founded": 1966
-  },
-  {
-    "Symbol": "EXC",
-    "Security": "Exelon",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Multi-Utilities",
-    "Headquarters Location": "Chicago, Illinois",
-    "Date first added": "1957-03-04",
-    "CIK": "0001109357",
-    "Founded": 2000
-  },
+
+
+ 
   {
     "Symbol": "EXPE",
     "Security": "Expedia Group",
@@ -2045,28 +786,8 @@ const stocks = [
     "CIK": "0001324424",
     "Founded": 1996
   },
-  {
-    "Symbol": "EXPD",
-    "Security": "Expeditors",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Air Freight & Logistics",
-    "Headquarters Location": "Seattle, Washington",
-    "Date first added": "2007-10-10",
-    "CIK": "0000746515",
-    "Founded": 1979
-  },
-  {
-    "Symbol": "EXR",
-    "Security": "Extra Space Storage",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Specialized REITs",
-    "Headquarters Location": "Salt Lake City, Utah",
-    "Date first added": "2016-01-19",
-    "CIK": "0001289490",
-    "Founded": 1977
-  },
+
+
   {
     "Symbol": "XOM",
     "Security": "ExxonMobil",
@@ -2078,50 +799,8 @@ const stocks = [
     "CIK": "0000034088",
     "Founded": 1999
   },
-  {
-    "Symbol": "FFIV",
-    "Security": "F5",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Communications Equipment",
-    "Headquarters Location": "Seattle, Washington",
-    "Date first added": "2010-12-20",
-    "CIK": "0001048695",
-    "Founded": 1996
-  },
-  {
-    "Symbol": "FDS",
-    "Security": "FactSet",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Financial Exchanges & Data",
-    "Headquarters Location": "Norwalk, Connecticut",
-    "Date first added": "2021-12-20",
-    "CIK": "0001013237",
-    "Founded": 1978
-  },
-  {
-    "Symbol": "FAST",
-    "Security": "Fastenal",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Building Products",
-    "Headquarters Location": "Winona, Minnesota",
-    "Date first added": "2008-09-15",
-    "CIK": "0000815556",
-    "Founded": 1967
-  },
-  {
-    "Symbol": "FRT",
-    "Security": "Federal Realty",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Retail REITs",
-    "Headquarters Location": "Rockville, Maryland",
-    "Date first added": "2016-02-01",
-    "CIK": "0000034903",
-    "Founded": 1962
-  },
+
+
   {
     "Symbol": "FDX",
     "Security": "FedEx",
@@ -2133,83 +812,10 @@ const stocks = [
     "CIK": "0001048911",
     "Founded": 1971
   },
-  {
-    "Symbol": "FITB",
-    "Security": "Fifth Third Bank",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Regional Banks",
-    "Headquarters Location": "Cincinnati, Ohio",
-    "Date first added": "",
-    "CIK": "0000035527",
-    "Founded": 1858
-  },
-  {
-    "Symbol": "FRC",
-    "Security": "First Republic",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Regional Banks",
-    "Headquarters Location": "San Francisco, California",
-    "Date first added": "2019-01-02",
-    "CIK": "0001132979",
-    "Founded": 1985
-  },
-  {
-    "Symbol": "FE",
-    "Security": "FirstEnergy",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Electric Utilities",
-    "Headquarters Location": "Akron, Ohio",
-    "Date first added": "",
-    "CIK": "0001031296",
-    "Founded": 1997
-  },
-  {
-    "Symbol": "FIS",
-    "Security": "FIS",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Data Processing & Outsourced Services",
-    "Headquarters Location": "Jacksonville, Florida",
-    "Date first added": "2006-11-10",
-    "CIK": "0001136893",
-    "Founded": 1968
-  },
-  {
-    "Symbol": "FISV",
-    "Security": "Fiserv",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Data Processing & Outsourced Services",
-    "Headquarters Location": "Brookfield, Wisconsin",
-    "Date first added": "2001-04-02",
-    "CIK": "0000798354",
-    "Founded": 1984
-  },
-  {
-    "Symbol": "FLT",
-    "Security": "Fleetcor",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Data Processing & Outsourced Services",
-    "Headquarters Location": "Norcross, Georgia",
-    "Date first added": "2018-06-20",
-    "CIK": "0001175454",
-    "Founded": 2000
-  },
-  {
-    "Symbol": "FMC",
-    "Security": "FMC",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Fertilizers & Agricultural Chemicals",
-    "Headquarters Location": "Philadelphia, Pennsylvania",
-    "Date first added": "2009-08-19",
-    "CIK": "0000037785",
-    "Founded": 1883
-  },
+ 
+
+ 
+ 
   {
     "Symbol": "F",
     "Security": "Ford",
@@ -2221,28 +827,7 @@ const stocks = [
     "CIK": "0000037996",
     "Founded": 1903
   },
-  {
-    "Symbol": "FTNT",
-    "Security": "Fortinet",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Systems Software",
-    "Headquarters Location": "Sunnyvale, California",
-    "Date first added": "2018-10-11",
-    "CIK": "0001262039",
-    "Founded": 2000
-  },
-  {
-    "Symbol": "FTV",
-    "Security": "Fortive",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "Everett, Washington",
-    "Date first added": "2016-07-01",
-    "CIK": "0001659166",
-    "Founded": 2016
-  },
+
   {
     "Symbol": "FBHS",
     "Security": "Fortune Brands",
@@ -2265,39 +850,9 @@ const stocks = [
     "CIK": "0001754301",
     "Founded": 2019
   },
-  {
-    "Symbol": "BEN",
-    "Security": "Franklin Templeton",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Asset Management & Custody Banks",
-    "Headquarters Location": "San Mateo, California",
-    "Date first added": "",
-    "CIK": "0000038777",
-    "Founded": 1947
-  },
-  {
-    "Symbol": "FCX",
-    "Security": "Freeport-McMoRan",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Copper",
-    "Headquarters Location": "Phoenix, Arizona",
-    "Date first added": "",
-    "CIK": "0000831259",
-    "Founded": 1912
-  },
-  {
-    "Symbol": "AJG",
-    "Security": "Gallagher",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Insurance Brokers",
-    "Headquarters Location": "Rolling Meadows, Illinois",
-    "Date first added": "2016-05-31",
-    "CIK": "0000354190",
-    "Founded": 1927
-  },
+
+ 
+
   {
     "Symbol": "GRMN",
     "Security": "Garmin",
@@ -2309,17 +864,7 @@ const stocks = [
     "CIK": "0001121788",
     "Founded": 1989
   },
-  {
-    "Symbol": "IT",
-    "Security": "Gartner",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "IT Consulting & Other Services",
-    "Headquarters Location": "Stamford, Connecticut",
-    "Date first added": "2017-04-05",
-    "CIK": "0000749251",
-    "Founded": 1979
-  },
+
   {
     "Symbol": "GE",
     "Security": "GE",
@@ -2331,28 +876,8 @@ const stocks = [
     "CIK": "0000040545",
     "Founded": 1892
   },
-  {
-    "Symbol": "GNRC",
-    "Security": "Generac",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Electrical Components & Equipment",
-    "Headquarters Location": "Waukesha, Wisconsin",
-    "Date first added": "2021-03-22",
-    "CIK": "0001474735",
-    "Founded": 1959
-  },
-  {
-    "Symbol": "GD",
-    "Security": "General Dynamics",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Aerospace & Defense",
-    "Headquarters Location": "Falls Church, Virginia",
-    "Date first added": "1957-03-04",
-    "CIK": "0000040533",
-    "Founded": 1899
-  },
+
+
   {
     "Symbol": "GIS",
     "Security": "General Mills",
@@ -2364,17 +889,7 @@ const stocks = [
     "CIK": "0000040704",
     "Founded": 1856
   },
-  {
-    "Symbol": "GPC",
-    "Security": "Genuine Parts",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Specialty Stores",
-    "Headquarters Location": "Atlanta, Georgia",
-    "Date first added": "1973-12-31",
-    "CIK": "0000040987",
-    "Founded": 1925
-  },
+
   {
     "Symbol": "GILD",
     "Security": "Gilead",
@@ -2386,28 +901,8 @@ const stocks = [
     "CIK": "0000882095",
     "Founded": 1987
   },
-  {
-    "Symbol": "GL",
-    "Security": "Globe Life",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Life & Health Insurance",
-    "Headquarters Location": "McKinney, Texas",
-    "Date first added": "1989-04-30",
-    "CIK": "0000320335",
-    "Founded": 1900
-  },
-  {
-    "Symbol": "GPN",
-    "Security": "Global Payments",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Data Processing & Outsourced Services",
-    "Headquarters Location": "Atlanta, Georgia",
-    "Date first added": "2016-04-25",
-    "CIK": "0001123360",
-    "Founded": 2000
-  },
+ 
+  
   {
     "Symbol": "GM",
     "Security": "GM",
@@ -2430,17 +925,7 @@ const stocks = [
     "CIK": "0000886982",
     "Founded": 1869
   },
-  {
-    "Symbol": "GWW",
-    "Security": "Grainger",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "Lake Forest, Illinois",
-    "Date first added": "1981-06-30",
-    "CIK": "0000277135",
-    "Founded": 1927
-  },
+
   {
     "Symbol": "HAL",
     "Security": "Halliburton",
@@ -2452,17 +937,7 @@ const stocks = [
     "CIK": "0000045012",
     "Founded": 1919
   },
-  {
-    "Symbol": "HIG",
-    "Security": "Hartford (The)",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Property & Casualty Insurance",
-    "Headquarters Location": "Hartford, Connecticut",
-    "Date first added": "1957-03-04",
-    "CIK": "0000874766",
-    "Founded": 1810
-  },
+
   {
     "Symbol": "HAS",
     "Security": "Hasbro",
@@ -2474,39 +949,9 @@ const stocks = [
     "CIK": "0000046080",
     "Founded": 1923
   },
-  {
-    "Symbol": "HCA",
-    "Security": "HCA Healthcare",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Facilities",
-    "Headquarters Location": "Nashville, Tennessee",
-    "Date first added": "2015-01-27",
-    "CIK": "0000860730",
-    "Founded": 1968
-  },
-  {
-    "Symbol": "PEAK",
-    "Security": "Healthpeak",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Health Care REITs",
-    "Headquarters Location": "Long Beach, California",
-    "Date first added": "2008-03-31",
-    "CIK": "0000765880",
-    "Founded": 1985
-  },
-  {
-    "Symbol": "HSIC",
-    "Security": "Henry Schein",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Distributors",
-    "Headquarters Location": "Melville, New York",
-    "Date first added": "2015-03-17",
-    "CIK": "0001000228",
-    "Founded": 1932
-  },
+
+
+
   {
     "Symbol": "HSY",
     "Security": "Hershey's",
@@ -2518,17 +963,7 @@ const stocks = [
     "CIK": "0000047111",
     "Founded": 1894
   },
-  {
-    "Symbol": "HES",
-    "Security": "Hess",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Integrated Oil & Gas",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "1984-05-31",
-    "CIK": "0000004447",
-    "Founded": 1919
-  },
+
   {
     "Symbol": "HLT",
     "Security": "Hilton",
@@ -2540,17 +975,7 @@ const stocks = [
     "CIK": "0001585689",
     "Founded": 1919
   },
-  {
-    "Symbol": "HOLX",
-    "Security": "Hologic",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Marlborough, Massachusetts",
-    "Date first added": "2016-03-30",
-    "CIK": "0000859737",
-    "Founded": 1985
-  },
+
   {
     "Symbol": "HD",
     "Security": "Home Depot",
@@ -2573,39 +998,9 @@ const stocks = [
     "CIK": "0000773840",
     "Founded": 1906
   },
-  {
-    "Symbol": "HRL",
-    "Security": "Hormel",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Staples",
-    "GICS Sub-Industry": "Packaged Foods & Meats",
-    "Headquarters Location": "Austin, Minnesota",
-    "Date first added": "2009-03-04",
-    "CIK": "0000048465",
-    "Founded": 1891
-  },
-  {
-    "Symbol": "HST",
-    "Security": "Host Hotels & Resorts",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Hotel & Resort REITs",
-    "Headquarters Location": "Bethesda, Maryland",
-    "Date first added": "2007-03-20",
-    "CIK": "0001070750",
-    "Founded": 1993
-  },
-  {
-    "Symbol": "HWM",
-    "Security": "Howmet Aerospace",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Aerospace & Defense",
-    "Headquarters Location": "Pittsburgh, Pennsylvania",
-    "Date first added": "1964-03-31",
-    "CIK": "0000004281",
-    "Founded": 2016
-  },
+ 
+ 
+
   {
     "Symbol": "HPQ",
     "Security": "HP",
@@ -2628,94 +1023,12 @@ const stocks = [
     "CIK": "0000049071",
     "Founded": 1961
   },
-  {
-    "Symbol": "HII",
-    "Security": "Huntington Ingalls Industries",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Aerospace & Defense",
-    "Headquarters Location": "Newport News, Virginia",
-    "Date first added": "2018-01-03",
-    "CIK": "0001501585",
-    "Founded": 2011
-  },
-  {
-    "Symbol": "HBAN",
-    "Security": "Huntington National Bank",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Regional Banks",
-    "Headquarters Location": "Columbus, Ohio; Detroit, Michigan",
-    "Date first added": "",
-    "CIK": "0000049196",
-    "Founded": 1866
-  },
-  {
-    "Symbol": "IEX",
-    "Security": "IDEX",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "Lake Forest, Illinois",
-    "Date first added": "2019-08-09",
-    "CIK": "0000832101",
-    "Founded": 1988
-  },
-  {
-    "Symbol": "IDXX",
-    "Security": "Idexx Laboratories",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Westbrook, Maine",
-    "Date first added": "2017-01-05",
-    "CIK": "0000874716",
-    "Founded": 1983
-  },
-  {
-    "Symbol": "ITW",
-    "Security": "Illinois Tool Works",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "Glenview, Illinois",
-    "Date first added": "1986-02-28",
-    "CIK": "0000049826",
-    "Founded": 1912
-  },
-  {
-    "Symbol": "ILMN",
-    "Security": "Illumina",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Life Sciences Tools & Services",
-    "Headquarters Location": "San Diego, California",
-    "Date first added": "2015-11-19",
-    "CIK": "0001110803",
-    "Founded": 1998
-  },
-  {
-    "Symbol": "INCY",
-    "Security": "Incyte",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Biotechnology",
-    "Headquarters Location": "Wilmington, Delaware",
-    "Date first added": "2017-02-28",
-    "CIK": "0000879169",
-    "Founded": 1991
-  },
-  {
-    "Symbol": "IR",
-    "Security": "Ingersoll Rand",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "Davidson, North Carolina",
-    "Date first added": "2020-03-03",
-    "CIK": "0001699150",
-    "Founded": 1859
-  },
+
+ 
+
+
+ 
+
   {
     "Symbol": "INTC",
     "Security": "Intel",
@@ -2727,17 +1040,7 @@ const stocks = [
     "CIK": "0000050863",
     "Founded": 1968
   },
-  {
-    "Symbol": "ICE",
-    "Security": "Intercontinental Exchange",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Financial Exchanges & Data",
-    "Headquarters Location": "Atlanta, Georgia",
-    "Date first added": "2007-09-26",
-    "CIK": "0001571949",
-    "Founded": 2000
-  },
+
   {
     "Symbol": "IBM",
     "Security": "IBM",
@@ -2749,39 +1052,9 @@ const stocks = [
     "CIK": "0000051143",
     "Founded": 1911
   },
-  {
-    "Symbol": "IP",
-    "Security": "International Paper",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Paper Packaging",
-    "Headquarters Location": "Memphis, Tennessee",
-    "Date first added": "1957-03-04",
-    "CIK": "0000051434",
-    "Founded": 1898
-  },
-  {
-    "Symbol": "IPG",
-    "Security": "Interpublic Group",
-    "SEC filings": "reports",
-    "GICS Sector": "Communication Services",
-    "GICS Sub-Industry": "Advertising",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "1992-10-01",
-    "CIK": "0000051644",
-    "Founded": "1961 (1930)"
-  },
-  {
-    "Symbol": "IFF",
-    "Security": "International Flavors & Fragrances",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Specialty Chemicals",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "1976-03-31",
-    "CIK": "0000051253",
-    "Founded": "1958 (1889)"
-  },
+
+
+
   {
     "Symbol": "INTU",
     "Security": "Intuit",
@@ -2793,17 +1066,7 @@ const stocks = [
     "CIK": "0000896878",
     "Founded": 1983
   },
-  {
-    "Symbol": "ISRG",
-    "Security": "Intuitive Surgical",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Sunnyvale, California",
-    "Date first added": "2008-06-02",
-    "CIK": "0001035267",
-    "Founded": 1995
-  },
+
   {
     "Symbol": "IVZ",
     "Security": "Invesco",
@@ -2815,72 +1078,10 @@ const stocks = [
     "CIK": "0000914208",
     "Founded": 1935
   },
-  {
-    "Symbol": "IPGP",
-    "Security": "IPG Photonics",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Electronic Manufacturing Services",
-    "Headquarters Location": "Oxford, Massachusetts",
-    "Date first added": "2018-03-07",
-    "CIK": "0001111928",
-    "Founded": 1990
-  },
-  {
-    "Symbol": "IQV",
-    "Security": "IQVIA",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Life Sciences Tools & Services",
-    "Headquarters Location": "Durham, North Carolina",
-    "Date first added": "2017-08-29",
-    "CIK": "0001478242",
-    "Founded": 1982
-  },
-  {
-    "Symbol": "IRM",
-    "Security": "Iron Mountain",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Specialized REITs",
-    "Headquarters Location": "Boston, Massachusetts",
-    "Date first added": "2009-01-06",
-    "CIK": "0001020569",
-    "Founded": 1951
-  },
-  {
-    "Symbol": "JBHT",
-    "Security": "J.B. Hunt",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Trucking",
-    "Headquarters Location": "Lowell, Arkansas",
-    "Date first added": "2015-07-01",
-    "CIK": "0000728535",
-    "Founded": 1961
-  },
-  {
-    "Symbol": "JKHY",
-    "Security": "Jack Henry & Associates",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Data Processing & Outsourced Services",
-    "Headquarters Location": "Monett, Missouri",
-    "Date first added": "2018-11-13",
-    "CIK": "0000779152",
-    "Founded": 1976
-  },
-  {
-    "Symbol": "J",
-    "Security": "Jacobs",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Construction & Engineering",
-    "Headquarters Location": "Dallas, Texas",
-    "Date first added": "2007-10-26",
-    "CIK": "0000052988",
-    "Founded": 1947
-  },
+
+
+ 
+ 
   {
     "Symbol": "JNJ",
     "Security": "Johnson & Johnson",
@@ -2892,17 +1093,7 @@ const stocks = [
     "CIK": "0000200406",
     "Founded": 1886
   },
-  {
-    "Symbol": "JCI",
-    "Security": "Johnson Controls",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Building Products",
-    "Headquarters Location": "Cork, Ireland",
-    "Date first added": "2010-08-27",
-    "CIK": "0000833444",
-    "Founded": 1885
-  },
+ 
   {
     "Symbol": "JPM",
     "Security": "JPMorgan Chase",
@@ -2914,17 +1105,7 @@ const stocks = [
     "CIK": "0000019617",
     "Founded": "2000 (1799 / 1871)"
   },
-  {
-    "Symbol": "JNPR",
-    "Security": "Juniper Networks",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Communications Equipment",
-    "Headquarters Location": "Sunnyvale, California",
-    "Date first added": "2006-06-02",
-    "CIK": "0001043604",
-    "Founded": 1996
-  },
+
   {
     "Symbol": "K",
     "Security": "Kellogg's",
@@ -2936,28 +1117,8 @@ const stocks = [
     "CIK": "0000055067",
     "Founded": 1906
   },
-  {
-    "Symbol": "KEY",
-    "Security": "KeyCorp",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Regional Banks",
-    "Headquarters Location": "Cleveland, Ohio",
-    "Date first added": "1994-03-01",
-    "CIK": "0000091576",
-    "Founded": 1825
-  },
-  {
-    "Symbol": "KEYS",
-    "Security": "Keysight",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Electronic Equipment & Instruments",
-    "Headquarters Location": "Santa Rosa, California",
-    "Date first added": "2018-11-06",
-    "CIK": "0001601046",
-    "Founded": 2014
-  },
+ 
+ 
   {
     "Symbol": "KMB",
     "Security": "Kimberly-Clark",
@@ -2969,39 +1130,9 @@ const stocks = [
     "CIK": "0000055785",
     "Founded": 1872
   },
-  {
-    "Symbol": "KIM",
-    "Security": "Kimco Realty",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Retail REITs",
-    "Headquarters Location": "New Hyde Park, New York",
-    "Date first added": "2006-04-04",
-    "CIK": "0000879101",
-    "Founded": 1958
-  },
-  {
-    "Symbol": "KMI",
-    "Security": "Kinder Morgan",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Storage & Transportation",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "2012-05-25",
-    "CIK": "0001506307",
-    "Founded": 1997
-  },
-  {
-    "Symbol": "KLAC",
-    "Security": "KLA",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Semiconductor Equipment",
-    "Headquarters Location": "Milpitas, California",
-    "Date first added": "",
-    "CIK": "0000319201",
-    "Founded": "1975/1977 (1997)"
-  },
+  
+  
+
   {
     "Symbol": "KHC",
     "Security": "Kraft Heinz",
@@ -3024,17 +1155,7 @@ const stocks = [
     "CIK": "0000056873",
     "Founded": 1883
   },
-  {
-    "Symbol": "LHX",
-    "Security": "L3Harris",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Aerospace & Defense",
-    "Headquarters Location": "Melbourne, Florida",
-    "Date first added": "2008-09-22",
-    "CIK": "0000202058",
-    "Founded": "2019 (1895)"
-  },
+ 
   {
     "Symbol": "LH",
     "Security": "LabCorp",
@@ -3046,116 +1167,14 @@ const stocks = [
     "CIK": "0000920148",
     "Founded": 1978
   },
-  {
-    "Symbol": "LRCX",
-    "Security": "Lam Research",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Semiconductor Equipment",
-    "Headquarters Location": "Fremont, California",
-    "Date first added": "2012-06-29",
-    "CIK": "0000707549",
-    "Founded": 1980
-  },
-  {
-    "Symbol": "LW",
-    "Security": "Lamb Weston",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Staples",
-    "GICS Sub-Industry": "Packaged Foods & Meats",
-    "Headquarters Location": "Eagle, Idaho",
-    "Date first added": "2018-12-03",
-    "CIK": "0001679273",
-    "Founded": "2016 (1950)"
-  },
-  {
-    "Symbol": "LVS",
-    "Security": "Las Vegas Sands",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Casinos & Gaming",
-    "Headquarters Location": "Las Vegas, Nevada",
-    "Date first added": "2019-10-03",
-    "CIK": "0001300514",
-    "Founded": 1988
-  },
-  {
-    "Symbol": "LDOS",
-    "Security": "Leidos",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Diversified Support Services",
-    "Headquarters Location": "Reston, Virginia",
-    "Date first added": "2019-08-09",
-    "CIK": "0001336920",
-    "Founded": 1969
-  },
-  {
-    "Symbol": "LEN",
-    "Security": "Lennar",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Homebuilding",
-    "Headquarters Location": "Miami, Florida",
-    "Date first added": "2005-10-04",
-    "CIK": "0000920760",
-    "Founded": 1954
-  },
-  {
-    "Symbol": "LLY",
-    "Security": "Lilly",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Pharmaceuticals",
-    "Headquarters Location": "Indianapolis, Indiana",
-    "Date first added": "1970-12-31",
-    "CIK": "0000059478",
-    "Founded": 1876
-  },
-  {
-    "Symbol": "LNC",
-    "Security": "Lincoln Financial",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Multi-line Insurance",
-    "Headquarters Location": "Radnor, Pennsylvania",
-    "Date first added": "1976-06-30",
-    "CIK": "0000059558",
-    "Founded": 1905
-  },
-  {
-    "Symbol": "LIN",
-    "Security": "Linde",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Industrial Gases",
-    "Headquarters Location": "Guildford, England",
-    "Date first added": "1992-07-01",
-    "CIK": "0001707925",
-    "Founded": 1879
-  },
-  {
-    "Symbol": "LYV",
-    "Security": "Live Nation Entertainment",
-    "SEC filings": "reports",
-    "GICS Sector": "Communication Services",
-    "GICS Sub-Industry": "Movies & Entertainment",
-    "Headquarters Location": "Beverly Hills, California",
-    "Date first added": "2019-12-23",
-    "CIK": "0001335258",
-    "Founded": 2010
-  },
-  {
-    "Symbol": "LKQ",
-    "Security": "LKQ Corporation",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Distributors",
-    "Headquarters Location": "Chicago, Illinois",
-    "Date first added": "2016-05-23",
-    "CIK": "0001065696",
-    "Founded": 1998
-  },
+
+
+
+
+
+
+
+
   {
     "Symbol": "LMT",
     "Security": "Lockheed Martin",
@@ -3167,17 +1186,7 @@ const stocks = [
     "CIK": "0000936468",
     "Founded": 1995
   },
-  {
-    "Symbol": "L",
-    "Security": "Loews Corporation",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Multi-line Insurance",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "",
-    "CIK": "0000060086",
-    "Founded": 1959
-  },
+
   {
     "Symbol": "LOW",
     "Security": "Lowe's",
@@ -3189,72 +1198,10 @@ const stocks = [
     "CIK": "0000060667",
     "Founded": "1904/1946/1959"
   },
-  {
-    "Symbol": "LUMN",
-    "Security": "Lumen",
-    "SEC filings": "reports",
-    "GICS Sector": "Communication Services",
-    "GICS Sub-Industry": "Alternative Carriers",
-    "Headquarters Location": "Monroe, Louisiana",
-    "Date first added": "1999-03-25",
-    "CIK": "0000018926",
-    "Founded": "1983 (1877)"
-  },
-  {
-    "Symbol": "LYB",
-    "Security": "LyondellBasell",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Specialty Chemicals",
-    "Headquarters Location": "Rotterdam, Netherlands",
-    "Date first added": "2012-09-05",
-    "CIK": "0001489393",
-    "Founded": 2007
-  },
-  {
-    "Symbol": "MTB",
-    "Security": "M&T Bank",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Regional Banks",
-    "Headquarters Location": "Buffalo, New York",
-    "Date first added": "2004-02-23",
-    "CIK": "0000036270",
-    "Founded": 1856
-  },
-  {
-    "Symbol": "MRO",
-    "Security": "Marathon Oil",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "1991-05-01",
-    "CIK": "0000101778",
-    "Founded": 1887
-  },
-  {
-    "Symbol": "MPC",
-    "Security": "Marathon Petroleum",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Refining & Marketing",
-    "Headquarters Location": "Findlay, Ohio",
-    "Date first added": "2011-07-01",
-    "CIK": "0001510295",
-    "Founded": "2009 (1887)"
-  },
-  {
-    "Symbol": "MKTX",
-    "Security": "MarketAxess",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Financial Exchanges & Data",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "2019-07-01",
-    "CIK": "0001278021",
-    "Founded": 2000
-  },
+
+
+
+
   {
     "Symbol": "MAR",
     "Security": "Marriott International",
@@ -3266,39 +1213,8 @@ const stocks = [
     "CIK": "0001048286",
     "Founded": 1927
   },
-  {
-    "Symbol": "MMC",
-    "Security": "Marsh & McLennan",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Insurance Brokers",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "1987-08-31",
-    "CIK": "0000062709",
-    "Founded": 1905
-  },
-  {
-    "Symbol": "MLM",
-    "Security": "Martin Marietta",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Construction Materials",
-    "Headquarters Location": "Raleigh, North Carolina",
-    "Date first added": "2014-07-02",
-    "CIK": "0000916076",
-    "Founded": 1993
-  },
-  {
-    "Symbol": "MAS",
-    "Security": "Masco",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Building Products",
-    "Headquarters Location": "Livonia, Michigan",
-    "Date first added": "1981-06-30",
-    "CIK": "0000062996",
-    "Founded": 1929
-  },
+
+
   {
     "Symbol": "MA",
     "Security": "Mastercard",
@@ -3354,17 +1270,7 @@ const stocks = [
     "CIK": "0000927653",
     "Founded": 1833
   },
-  {
-    "Symbol": "MDT",
-    "Security": "Medtronic",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Dublin, Ireland",
-    "Date first added": "1986-10-31",
-    "CIK": "0001613103",
-    "Founded": 1949
-  },
+
   {
     "Symbol": "MRK",
     "Security": "Merck",
@@ -3398,17 +1304,7 @@ const stocks = [
     "CIK": "0001099219",
     "Founded": 1868
   },
-  {
-    "Symbol": "MTD",
-    "Security": "Mettler Toledo",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Life Sciences Tools & Services",
-    "Headquarters Location": "Columbus, Ohio",
-    "Date first added": "2016-09-06",
-    "CIK": "0001037646",
-    "Founded": 1945
-  },
+
   {
     "Symbol": "MGM",
     "Security": "MGM Resorts",
@@ -3420,28 +1316,8 @@ const stocks = [
     "CIK": "0000789570",
     "Founded": 1986
   },
-  {
-    "Symbol": "MCHP",
-    "Security": "Microchip",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Semiconductors",
-    "Headquarters Location": "Chandler, Arizona",
-    "Date first added": "2007-09-07",
-    "CIK": "0000827054",
-    "Founded": 1989
-  },
-  {
-    "Symbol": "MU",
-    "Security": "Micron",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Semiconductors",
-    "Headquarters Location": "Boise, Idaho",
-    "Date first added": "1994-09-27",
-    "CIK": "0000723125",
-    "Founded": 1978
-  },
+  
+
   {
     "Symbol": "MSFT",
     "Security": "Microsoft",
@@ -3453,17 +1329,7 @@ const stocks = [
     "CIK": "0000789019",
     "Founded": 1975
   },
-  {
-    "Symbol": "MAA",
-    "Security": "Mid-America Apartments",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Residential REITs",
-    "Headquarters Location": "Memphis, Tennessee",
-    "Date first added": "2016-12-02",
-    "CIK": "0000912595",
-    "Founded": 1977
-  },
+
   {
     "Symbol": "MRNA",
     "Security": "Moderna",
@@ -3486,17 +1352,7 @@ const stocks = [
     "CIK": "0000851968",
     "Founded": 1878
   },
-  {
-    "Symbol": "MOH",
-    "Security": "Molina Healthcare",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Managed Health Care",
-    "Headquarters Location": "Long Beach, California",
-    "Date first added": "2022-03-02",
-    "CIK": "0001179929",
-    "Founded": 1980
-  },
+
   {
     "Symbol": "TAP",
     "Security": "Molson Coors",
@@ -3508,28 +1364,8 @@ const stocks = [
     "CIK": "0000024545",
     "Founded": "2005 (Molson 1786, Coors 1873)"
   },
-  {
-    "Symbol": "MDLZ",
-    "Security": "Mondelez International",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Staples",
-    "GICS Sub-Industry": "Packaged Foods & Meats",
-    "Headquarters Location": "Chicago, Illinois",
-    "Date first added": "2012-10-02",
-    "CIK": "0001103982",
-    "Founded": 2012
-  },
-  {
-    "Symbol": "MPWR",
-    "Security": "Monolithic Power Systems",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Semiconductors",
-    "Headquarters Location": "Kirkland, Washington",
-    "Date first added": "2021-02-12",
-    "CIK": "0001280452",
-    "Founded": 1997
-  },
+
+
   {
     "Symbol": "MNST",
     "Security": "Monster Beverage",
@@ -3563,17 +1399,7 @@ const stocks = [
     "CIK": "0000895421",
     "Founded": 1935
   },
-  {
-    "Symbol": "MOS",
-    "Security": "Mosaic",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Fertilizers & Agricultural Chemicals",
-    "Headquarters Location": "Tampa, Florida",
-    "Date first added": "2011-09-26",
-    "CIK": "0001285785",
-    "Founded": "2004 (1865 / 1909)"
-  },
+
   {
     "Symbol": "MSI",
     "Security": "Motorola Solutions",
@@ -3586,17 +1412,6 @@ const stocks = [
     "Founded": "1928 (2011)"
   },
   {
-    "Symbol": "MSCI",
-    "Security": "MSCI",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Financial Exchanges & Data",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "2018-04-04",
-    "CIK": "0001408198",
-    "Founded": 1969
-  },
-  {
     "Symbol": "NDAQ",
     "Security": "Nasdaq",
     "SEC filings": "reports",
@@ -3607,17 +1422,7 @@ const stocks = [
     "CIK": "0001120193",
     "Founded": 1971
   },
-  {
-    "Symbol": "NTAP",
-    "Security": "NetApp",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
-    "Headquarters Location": "Sunnyvale, California",
-    "Date first added": "1999-06-25",
-    "CIK": "0001002047",
-    "Founded": 1992
-  },
+
   {
     "Symbol": "NFLX",
     "Security": "Netflix",
@@ -3629,61 +1434,9 @@ const stocks = [
     "CIK": "0001065280",
     "Founded": 1997
   },
-  {
-    "Symbol": "NWL",
-    "Security": "Newell Brands",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Housewares & Specialties",
-    "Headquarters Location": "Atlanta, Georgia",
-    "Date first added": "1989-04-30",
-    "CIK": "0000814453",
-    "Founded": 1903
-  },
-  {
-    "Symbol": "NEM",
-    "Security": "Newmont",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Gold",
-    "Headquarters Location": "Denver, Colorado",
-    "Date first added": "1969-06-30",
-    "CIK": "0001164727",
-    "Founded": 1921
-  },
-  {
-    "Symbol": "NWSA",
-    "Security": "News Corp (Class A)",
-    "SEC filings": "reports",
-    "GICS Sector": "Communication Services",
-    "GICS Sub-Industry": "Publishing",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "2013-08-01",
-    "CIK": "0001564708",
-    "Founded": "2013 (1980)"
-  },
-  {
-    "Symbol": "NEE",
-    "Security": "NextEra Energy",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Multi-Utilities",
-    "Headquarters Location": "Juno Beach, Florida",
-    "Date first added": "1976-06-30",
-    "CIK": "0000753308",
-    "Founded": "1984 (1925)"
-  },
-  {
-    "Symbol": "NLSN",
-    "Security": "Nielsen",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Research & Consulting Services",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "2013-07-09",
-    "CIK": "0001492633",
-    "Founded": 1923
-  },
+
+
+
   {
     "Symbol": "NKE",
     "Security": "Nike",
@@ -3695,72 +1448,9 @@ const stocks = [
     "CIK": "0000320187",
     "Founded": 1964
   },
-  {
-    "Symbol": "NI",
-    "Security": "NiSource",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Multi-Utilities",
-    "Headquarters Location": "Merrillville, Indiana",
-    "Date first added": "",
-    "CIK": "0001111711",
-    "Founded": 1912
-  },
-  {
-    "Symbol": "NDSN",
-    "Security": "Nordson",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "Westlake, Ohio",
-    "Date first added": "2022-02-15",
-    "CIK": "0000072331",
-    "Founded": 1935
-  },
-  {
-    "Symbol": "NSC",
-    "Security": "Norfolk Southern",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Railroads",
-    "Headquarters Location": "Norfolk, Virginia",
-    "Date first added": "1957-03-04",
-    "CIK": "0000702165",
-    "Founded": "1881/1894 (1980)"
-  },
-  {
-    "Symbol": "NTRS",
-    "Security": "Northern Trust",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Asset Management & Custody Banks",
-    "Headquarters Location": "Chicago, Illinois",
-    "Date first added": "",
-    "CIK": "0000073124",
-    "Founded": 1889
-  },
-  {
-    "Symbol": "NOC",
-    "Security": "Northrop Grumman",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Aerospace & Defense",
-    "Headquarters Location": "West Falls Church, Virginia",
-    "Date first added": "1985-06-30",
-    "CIK": "0001133421",
-    "Founded": "1994 (Northrop 1939, Grumman 1930)"
-  },
-  {
-    "Symbol": "NLOK",
-    "Security": "NortonLifeLock",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Application Software",
-    "Headquarters Location": "Tempe, Arizona",
-    "Date first added": "2003-03-25",
-    "CIK": "0000849399",
-    "Founded": 1982
-  },
+
+
+
   {
     "Symbol": "NCLH",
     "Security": "Norwegian Cruise Line Holdings",
@@ -3772,28 +1462,7 @@ const stocks = [
     "CIK": "0001513761",
     "Founded": "2011 (1966)"
   },
-  {
-    "Symbol": "NRG",
-    "Security": "NRG Energy",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Independent Power Producers & Energy Traders",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "2010-01-29",
-    "CIK": "0001013871",
-    "Founded": 1992
-  },
-  {
-    "Symbol": "NUE",
-    "Security": "Nucor",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Steel",
-    "Headquarters Location": "Charlotte, North Carolina",
-    "Date first added": "1985-04-30",
-    "CIK": "0000073309",
-    "Founded": 1940
-  },
+
   {
     "Symbol": "NVDA",
     "Security": "Nvidia",
@@ -3805,83 +1474,12 @@ const stocks = [
     "CIK": "0001045810",
     "Founded": 1993
   },
-  {
-    "Symbol": "NVR",
-    "Security": "NVR",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Homebuilding",
-    "Headquarters Location": "Reston, Virginia",
-    "Date first added": "2019-09-26",
-    "CIK": "0000906163",
-    "Founded": 1980
-  },
-  {
-    "Symbol": "NXPI",
-    "Security": "NXP",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Semiconductors",
-    "Headquarters Location": "Eindhoven, Netherlands",
-    "Date first added": "2021-03-22",
-    "CIK": "0001413447",
-    "Founded": 1953
-  },
-  {
-    "Symbol": "ORLY",
-    "Security": "O'Reilly Automotive",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Specialty Stores",
-    "Headquarters Location": "Springfield, Missouri",
-    "Date first added": "2009-03-27",
-    "CIK": "0000898173",
-    "Founded": 1957
-  },
-  {
-    "Symbol": "OXY",
-    "Security": "Occidental Petroleum",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "1982-12-31",
-    "CIK": "0000797468",
-    "Founded": 1920
-  },
-  {
-    "Symbol": "ODFL",
-    "Security": "Old Dominion",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Trucking",
-    "Headquarters Location": "Thomasville, North Carolina",
-    "Date first added": "2019-12-09",
-    "CIK": "0000878927",
-    "Founded": 1934
-  },
-  {
-    "Symbol": "OMC",
-    "Security": "Omnicom Group",
-    "SEC filings": "reports",
-    "GICS Sector": "Communication Services",
-    "GICS Sub-Industry": "Advertising",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "",
-    "CIK": "0000029989",
-    "Founded": 1986
-  },
-  {
-    "Symbol": "OKE",
-    "Security": "Oneok",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Storage & Transportation",
-    "Headquarters Location": "Tulsa, Oklahoma",
-    "Date first added": "2010-03-15",
-    "CIK": "0001039684",
-    "Founded": 1906
-  },
+
+ 
+
+ 
+
+ 
   {
     "Symbol": "ORCL",
     "Security": "Oracle",
@@ -3893,50 +1491,8 @@ const stocks = [
     "CIK": "0001341439",
     "Founded": 1977
   },
-  {
-    "Symbol": "OGN",
-    "Security": "Organon",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Pharmaceuticals",
-    "Headquarters Location": "Jersey City, New Jersey",
-    "Date first added": "2021-06-03",
-    "CIK": "0001821825",
-    "Founded": 2021
-  },
-  {
-    "Symbol": "OTIS",
-    "Security": "Otis",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "Farmington, Connecticut",
-    "Date first added": "2020-04-03",
-    "CIK": "0001781335",
-    "Founded": "2020 (1853)"
-  },
-  {
-    "Symbol": "PCAR",
-    "Security": "Paccar",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Construction Machinery & Heavy Trucks",
-    "Headquarters Location": "Bellevue, Washington",
-    "Date first added": "1980-12-31",
-    "CIK": "0000075362",
-    "Founded": 1905
-  },
-  {
-    "Symbol": "PKG",
-    "Security": "Packaging Corporation of America",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Paper Packaging",
-    "Headquarters Location": "Lake Forest, Illinois",
-    "Date first added": "2017-07-26",
-    "CIK": "0000075677",
-    "Founded": 1959
-  },
+
+
   {
     "Symbol": "PARA",
     "Security": "Paramount",
@@ -3948,39 +1504,8 @@ const stocks = [
     "CIK": "0000813828",
     "Founded": "2019 (1952)"
   },
-  {
-    "Symbol": "PH",
-    "Security": "Parker",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "Cleveland, Ohio",
-    "Date first added": "1985-11-30",
-    "CIK": "0000076334",
-    "Founded": 1917
-  },
-  {
-    "Symbol": "PAYX",
-    "Security": "Paychex",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Data Processing & Outsourced Services",
-    "Headquarters Location": "Penfield, New York",
-    "Date first added": "",
-    "CIK": "0000723531",
-    "Founded": 1971
-  },
-  {
-    "Symbol": "PAYC",
-    "Security": "Paycom",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Application Software",
-    "Headquarters Location": "Oklahoma City, Oklahoma",
-    "Date first added": "2020-01-28",
-    "CIK": "0001590955",
-    "Founded": 1998
-  },
+
+
   {
     "Symbol": "PYPL",
     "Security": "PayPal",
@@ -3992,39 +1517,8 @@ const stocks = [
     "CIK": "0001633917",
     "Founded": 1998
   },
-  {
-    "Symbol": "PENN",
-    "Security": "Penn National Gaming",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Casinos & Gaming",
-    "Headquarters Location": "Wyomissing, Pennsylvania",
-    "Date first added": "2021-03-22",
-    "CIK": "0000921738",
-    "Founded": 1972
-  },
-  {
-    "Symbol": "PNR",
-    "Security": "Pentair",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "Worsley, England",
-    "Date first added": "2012-10-01",
-    "CIK": "0000077360",
-    "Founded": 1966
-  },
-  {
-    "Symbol": "PBCT",
-    "Security": "People's United Financial",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Thrifts & Mortgage Finance",
-    "Headquarters Location": "Bridgeport, Connecticut",
-    "Date first added": "2008-11-13",
-    "CIK": "0001378946",
-    "Founded": 1842
-  },
+
+
   {
     "Symbol": "PEP",
     "Security": "PepsiCo",
@@ -4036,17 +1530,7 @@ const stocks = [
     "CIK": "0000077476",
     "Founded": 1898
   },
-  {
-    "Symbol": "PKI",
-    "Security": "PerkinElmer",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Waltham, Massachusetts",
-    "Date first added": "1985-05-31",
-    "CIK": "0000031791",
-    "Founded": 1937
-  },
+
   {
     "Symbol": "PFE",
     "Security": "Pfizer",
@@ -4058,50 +1542,9 @@ const stocks = [
     "CIK": "0000078003",
     "Founded": 1849
   },
-  {
-    "Symbol": "PM",
-    "Security": "Philip Morris International",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Staples",
-    "GICS Sub-Industry": "Tobacco",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "2008-03-31",
-    "CIK": "0001413329",
-    "Founded": "2008 (1847)"
-  },
-  {
-    "Symbol": "PSX",
-    "Security": "Phillips 66",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Refining & Marketing",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "2012-05-01",
-    "CIK": "0001534701",
-    "Founded": "2012 (1917)"
-  },
-  {
-    "Symbol": "PNW",
-    "Security": "Pinnacle West",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Multi-Utilities",
-    "Headquarters Location": "Phoenix, Arizona",
-    "Date first added": "",
-    "CIK": "0000764622",
-    "Founded": 1985
-  },
-  {
-    "Symbol": "PXD",
-    "Security": "Pioneer Natural Resources",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
-    "Headquarters Location": "Irving, Texas",
-    "Date first added": "2008-09-24",
-    "CIK": "0001038357",
-    "Founded": 1997
-  },
+
+
+
   {
     "Symbol": "PNC",
     "Security": "PNC Financial Services",
@@ -4113,50 +1556,8 @@ const stocks = [
     "CIK": "0000713676",
     "Founded": 1845
   },
-  {
-    "Symbol": "POOL",
-    "Security": "Pool Corporation",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Distributors",
-    "Headquarters Location": "Covington, Louisiana",
-    "Date first added": "2020-10-07",
-    "CIK": "0000945841",
-    "Founded": 1993
-  },
-  {
-    "Symbol": "PPG",
-    "Security": "PPG Industries",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Specialty Chemicals",
-    "Headquarters Location": "Pittsburgh, Pennsylvania",
-    "Date first added": "1957-03-04",
-    "CIK": "0000079879",
-    "Founded": 1883
-  },
-  {
-    "Symbol": "PPL",
-    "Security": "PPL",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Electric Utilities",
-    "Headquarters Location": "Allentown, Pennsylvania",
-    "Date first added": "",
-    "CIK": "0000922224",
-    "Founded": 1920
-  },
-  {
-    "Symbol": "PFG",
-    "Security": "Principal",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Life & Health Insurance",
-    "Headquarters Location": "Des Moines, Iowa",
-    "Date first added": "2002-07-22",
-    "CIK": "0001126328",
-    "Founded": 1879
-  },
+
+
   {
     "Symbol": "PG",
     "Security": "Procter & Gamble",
@@ -4179,17 +1580,7 @@ const stocks = [
     "CIK": "0000080661",
     "Founded": 1937
   },
-  {
-    "Symbol": "PLD",
-    "Security": "Prologis",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Industrial REITs",
-    "Headquarters Location": "San Francisco, California",
-    "Date first added": "2003-07-17",
-    "CIK": "0001045609",
-    "Founded": 1983
-  },
+
   {
     "Symbol": "PRU",
     "Security": "Prudential",
@@ -4212,72 +1603,10 @@ const stocks = [
     "CIK": "0000788784",
     "Founded": 1903
   },
-  {
-    "Symbol": "PTC",
-    "Security": "PTC",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Application Software",
-    "Headquarters Location": "Boston, Massachusetts",
-    "Date first added": "2021-04-20",
-    "CIK": "0000857005",
-    "Founded": 1985
-  },
-  {
-    "Symbol": "PSA",
-    "Security": "Public Storage",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Specialized REITs",
-    "Headquarters Location": "Glendale, California",
-    "Date first added": "2005-08-19",
-    "CIK": "0001393311",
-    "Founded": 1972
-  },
-  {
-    "Symbol": "PHM",
-    "Security": "PulteGroup",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Homebuilding",
-    "Headquarters Location": "Atlanta, Georgia",
-    "Date first added": "1984-04-30",
-    "CIK": "0000822416",
-    "Founded": 1956
-  },
-  {
-    "Symbol": "PVH",
-    "Security": "PVH",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "2013-02-15",
-    "CIK": "0000078239",
-    "Founded": 1881
-  },
-  {
-    "Symbol": "QRVO",
-    "Security": "Qorvo",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Semiconductors",
-    "Headquarters Location": "Greensboro, North Carolina",
-    "Date first added": "2015-06-11",
-    "CIK": "0001604778",
-    "Founded": 2015
-  },
-  {
-    "Symbol": "PWR",
-    "Security": "Quanta",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Construction & Engineering",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "2009-07-01",
-    "CIK": "0001050915",
-    "Founded": 1997
-  },
+
+
+
+
   {
     "Symbol": "QCOM",
     "Security": "Qualcomm",
@@ -4289,17 +1618,7 @@ const stocks = [
     "CIK": "0000804328",
     "Founded": 1985
   },
-  {
-    "Symbol": "DGX",
-    "Security": "Quest Diagnostics",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Services",
-    "Headquarters Location": "Secaucus, New Jersey",
-    "Date first added": "2002-12-12",
-    "CIK": "0001022079",
-    "Founded": 1967
-  },
+
   {
     "Symbol": "RL",
     "Security": "Ralph Lauren",
@@ -4311,50 +1630,10 @@ const stocks = [
     "CIK": "0001037038",
     "Founded": 1967
   },
-  {
-    "Symbol": "RJF",
-    "Security": "Raymond James",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Investment Banking & Brokerage",
-    "Headquarters Location": "St. Petersburg, Florida",
-    "Date first added": "2017-03-20",
-    "CIK": "0000720005",
-    "Founded": 1962
-  },
-  {
-    "Symbol": "RTX",
-    "Security": "Raytheon Technologies",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Aerospace & Defense",
-    "Headquarters Location": "Waltham, Massachusetts",
-    "Date first added": "",
-    "CIK": "0000101829",
-    "Founded": 1922
-  },
-  {
-    "Symbol": "O",
-    "Security": "Realty Income",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Retail REITs",
-    "Headquarters Location": "San Diego, California",
-    "Date first added": "2015-04-07",
-    "CIK": "0000726728",
-    "Founded": 1969
-  },
-  {
-    "Symbol": "REG",
-    "Security": "Regency Centers",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Retail REITs",
-    "Headquarters Location": "Jacksonville, Florida",
-    "Date first added": "2017-03-02",
-    "CIK": "0000910606",
-    "Founded": 1963
-  },
+
+
+ 
+ 
   {
     "Symbol": "REGN",
     "Security": "Regeneron",
@@ -4366,94 +1645,11 @@ const stocks = [
     "CIK": "0000872589",
     "Founded": 1988
   },
-  {
-    "Symbol": "RF",
-    "Security": "Regions",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Regional Banks",
-    "Headquarters Location": "Birmingham, Alabama",
-    "Date first added": "1998-08-28",
-    "CIK": "0001281761",
-    "Founded": 1971
-  },
-  {
-    "Symbol": "RSG",
-    "Security": "Republic Services",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Environmental & Facilities Services",
-    "Headquarters Location": "Phoenix, Arizona",
-    "Date first added": "2008-12-05",
-    "CIK": "0001060391",
-    "Founded": "1998 (1981)"
-  },
-  {
-    "Symbol": "RMD",
-    "Security": "ResMed",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "San Diego, California",
-    "Date first added": "2017-07-26",
-    "CIK": "0000943819",
-    "Founded": 1989
-  },
-  {
-    "Symbol": "RHI",
-    "Security": "Robert Half",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Human Resource & Employment Services",
-    "Headquarters Location": "Menlo Park, California",
-    "Date first added": "2000-12-05",
-    "CIK": "0000315213",
-    "Founded": 1948
-  },
-  {
-    "Symbol": "ROK",
-    "Security": "Rockwell Automation",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Electrical Components & Equipment",
-    "Headquarters Location": "Milwaukee, Wisconsin",
-    "Date first added": "",
-    "CIK": "0001024478",
-    "Founded": 1903
-  },
-  {
-    "Symbol": "ROL",
-    "Security": "Rollins",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Environmental & Facilities Services",
-    "Headquarters Location": "Atlanta, Georgia",
-    "Date first added": "2018-10-01",
-    "CIK": "0000084839",
-    "Founded": 1948
-  },
-  {
-    "Symbol": "ROP",
-    "Security": "Roper",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Conglomerates",
-    "Headquarters Location": "Sarasota, Florida",
-    "Date first added": "2009-12-23",
-    "CIK": "0000882835",
-    "Founded": 1981
-  },
-  {
-    "Symbol": "ROST",
-    "Security": "Ross",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Apparel Retail",
-    "Headquarters Location": "Dublin, California",
-    "Date first added": "2009-12-21",
-    "CIK": "0000745732",
-    "Founded": 1982
-  },
+
+
+
+
+ 
   {
     "Symbol": "RCL",
     "Security": "Royal Caribbean Group",
@@ -4465,17 +1661,7 @@ const stocks = [
     "CIK": "0000884887",
     "Founded": 1997
   },
-  {
-    "Symbol": "SPGI",
-    "Security": "S&P Global",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Financial Exchanges & Data",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "",
-    "CIK": "0000064040",
-    "Founded": 1917
-  },
+ 
   {
     "Symbol": "CRM",
     "Security": "Salesforce",
@@ -4487,116 +1673,13 @@ const stocks = [
     "CIK": "0001108524",
     "Founded": 1999
   },
-  {
-    "Symbol": "SBAC",
-    "Security": "SBA Communications",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Specialized REITs",
-    "Headquarters Location": "Boca Raton, Florida",
-    "Date first added": "2017-09-01",
-    "CIK": "0001034054",
-    "Founded": 1989
-  },
-  {
-    "Symbol": "SLB",
-    "Security": "Schlumberger",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Equipment & Services",
-    "Headquarters Location": "Curaçao, Kingdom of the Netherlands",
-    "Date first added": "1965-03-31",
-    "CIK": "0000087347",
-    "Founded": 1926
-  },
-  {
-    "Symbol": "STX",
-    "Security": "Seagate",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
-    "Headquarters Location": "Dublin, Ireland",
-    "Date first added": "2012-07-02",
-    "CIK": "0001137789",
-    "Founded": 1979
-  },
-  {
-    "Symbol": "SEE",
-    "Security": "Sealed Air",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Paper Packaging",
-    "Headquarters Location": "Charlotte, North Carolina",
-    "Date first added": "1957-03-04",
-    "CIK": "0001012100",
-    "Founded": 1960
-  },
-  {
-    "Symbol": "SRE",
-    "Security": "Sempra Energy",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Multi-Utilities",
-    "Headquarters Location": "San Diego, California",
-    "Date first added": "",
-    "CIK": "0001032208",
-    "Founded": 1998
-  },
-  {
-    "Symbol": "NOW",
-    "Security": "ServiceNow",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Systems Software",
-    "Headquarters Location": "Santa Clara, California",
-    "Date first added": "2019-11-21",
-    "CIK": "0001373715",
-    "Founded": 2003
-  },
-  {
-    "Symbol": "SHW",
-    "Security": "Sherwin-Williams",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Specialty Chemicals",
-    "Headquarters Location": "Cleveland, Ohio",
-    "Date first added": "1964-06-30",
-    "CIK": "0000089800",
-    "Founded": 1866
-  },
-  {
-    "Symbol": "SBNY",
-    "Security": "Signature Bank",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Regional Banks",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "2021-12-20",
-    "CIK": "0001288784",
-    "Founded": 2001
-  },
-  {
-    "Symbol": "SPG",
-    "Security": "Simon",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Retail REITs",
-    "Headquarters Location": "Indianapolis, Indiana",
-    "Date first added": "2002-06-26",
-    "CIK": "0001063761",
-    "Founded": 2003
-  },
-  {
-    "Symbol": "SWKS",
-    "Security": "Skyworks",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Semiconductors",
-    "Headquarters Location": "Woburn, Massachusetts",
-    "Date first added": "2015-03-12",
-    "CIK": "0000004127",
-    "Founded": 2002
-  },
+
+ 
+
+ 
+
+
+
   {
     "Symbol": "SJM",
     "Security": "Smucker",
@@ -4608,39 +1691,8 @@ const stocks = [
     "CIK": "0000091419",
     "Founded": 1897
   },
-  {
-    "Symbol": "SNA",
-    "Security": "Snap-on",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "Kenosha, Wisconsin",
-    "Date first added": "1982-09-30",
-    "CIK": "0000091440",
-    "Founded": 1920
-  },
-  {
-    "Symbol": "SEDG",
-    "Security": "SolarEdge",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Semiconductor Equipment",
-    "Headquarters Location": "Herzliya, Israel",
-    "Date first added": "2021-12-20",
-    "CIK": "0001419612",
-    "Founded": 2006
-  },
-  {
-    "Symbol": "SO",
-    "Security": "Southern Company",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Electric Utilities",
-    "Headquarters Location": "Atlanta, Georgia",
-    "Date first added": "1957-03-04",
-    "CIK": "0000092122",
-    "Founded": 1945
-  },
+
+ 
   {
     "Symbol": "LUV",
     "Security": "Southwest Airlines",
@@ -4652,17 +1704,7 @@ const stocks = [
     "CIK": "0000092380",
     "Founded": 1967
   },
-  {
-    "Symbol": "SWK",
-    "Security": "Stanley Black & Decker",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "New Britain, Connecticut",
-    "Date first added": "1982-09-30",
-    "CIK": "0000093556",
-    "Founded": 1843
-  },
+ 
   {
     "Symbol": "SBUX",
     "Security": "Starbucks",
@@ -4674,28 +1716,8 @@ const stocks = [
     "CIK": "0000829224",
     "Founded": 1971
   },
-  {
-    "Symbol": "STT",
-    "Security": "State Street",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Asset Management & Custody Banks",
-    "Headquarters Location": "Boston, Massachusetts",
-    "Date first added": "",
-    "CIK": "0000093751",
-    "Founded": 1792
-  },
-  {
-    "Symbol": "STE",
-    "Security": "Steris",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Dublin, Ireland",
-    "Date first added": "2019-12-23",
-    "CIK": "0001757898",
-    "Founded": 1985
-  },
+
+  
   {
     "Symbol": "SYK",
     "Security": "Stryker",
@@ -4707,50 +1729,9 @@ const stocks = [
     "CIK": "0000310764",
     "Founded": 1941
   },
-  {
-    "Symbol": "SIVB",
-    "Security": "SVB Financial",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Regional Banks",
-    "Headquarters Location": "Santa Clara, California",
-    "Date first added": "2018-03-19",
-    "CIK": "0000719739",
-    "Founded": 1983
-  },
-  {
-    "Symbol": "SYF",
-    "Security": "Synchrony",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Consumer Finance",
-    "Headquarters Location": "Stamford, Connecticut",
-    "Date first added": "2015-11-18",
-    "CIK": "0001601712",
-    "Founded": 2003
-  },
-  {
-    "Symbol": "SNPS",
-    "Security": "Synopsys",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Application Software",
-    "Headquarters Location": "Mountain View, California",
-    "Date first added": "2017-03-16",
-    "CIK": "0000883241",
-    "Founded": 1986
-  },
-  {
-    "Symbol": "SYY",
-    "Security": "Sysco",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Staples",
-    "GICS Sub-Industry": "Food Distributors",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "1986-12-31",
-    "CIK": "0000096021",
-    "Founded": 1969
-  },
+
+ 
+ 
   {
     "Symbol": "TMUS",
     "Security": "T-Mobile",
@@ -4762,39 +1743,8 @@ const stocks = [
     "CIK": "0001283699",
     "Founded": 1994
   },
-  {
-    "Symbol": "TROW",
-    "Security": "T. Rowe Price",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Asset Management & Custody Banks",
-    "Headquarters Location": "Baltimore, Maryland",
-    "Date first added": "",
-    "CIK": "0001113169",
-    "Founded": 1937
-  },
-  {
-    "Symbol": "TTWO",
-    "Security": "Take-Two Interactive",
-    "SEC filings": "reports",
-    "GICS Sector": "Communication Services",
-    "GICS Sub-Industry": "Interactive Home Entertainment",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "2018-03-19",
-    "CIK": "0000946581",
-    "Founded": 1993
-  },
-  {
-    "Symbol": "TPR",
-    "Security": "Tapestry",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "",
-    "CIK": "0001116132",
-    "Founded": 2017
-  },
+
+
   {
     "Symbol": "TGT",
     "Security": "Target",
@@ -4806,50 +1756,9 @@ const stocks = [
     "CIK": "0000027419",
     "Founded": 1902
   },
-  {
-    "Symbol": "TEL",
-    "Security": "TE Connectivity",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Electronic Manufacturing Services",
-    "Headquarters Location": "Schaffhausen, Switzerland",
-    "Date first added": "2011-10-17",
-    "CIK": "0001385157",
-    "Founded": 2007
-  },
-  {
-    "Symbol": "TDY",
-    "Security": "Teledyne",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Aerospace & Defense",
-    "Headquarters Location": "Thousand Oaks, California",
-    "Date first added": "2020-06-22",
-    "CIK": "0001094285",
-    "Founded": 1960
-  },
-  {
-    "Symbol": "TFX",
-    "Security": "Teleflex",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Wayne, Pennsylvania",
-    "Date first added": "2019-01-18",
-    "CIK": "0000096943",
-    "Founded": 1943
-  },
-  {
-    "Symbol": "TER",
-    "Security": "Teradyne",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Semiconductor Equipment",
-    "Headquarters Location": "North Reading, Massachusetts",
-    "Date first added": "2020-09-21",
-    "CIK": "0000097210",
-    "Founded": 1960
-  },
+
+ 
+
   {
     "Symbol": "TSLA",
     "Security": "Tesla",
@@ -4872,17 +1781,7 @@ const stocks = [
     "CIK": "0000097476",
     "Founded": 1930
   },
-  {
-    "Symbol": "TXT",
-    "Security": "Textron",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Aerospace & Defense",
-    "Headquarters Location": "Providence, Rhode Island",
-    "Date first added": "1978-12-31",
-    "CIK": "0000217346",
-    "Founded": 1923
-  },
+
   {
     "Symbol": "TMO",
     "Security": "Thermo Fisher Scientific",
@@ -4894,83 +1793,10 @@ const stocks = [
     "CIK": "0000097745",
     "Founded": "2006 (1902)"
   },
-  {
-    "Symbol": "TJX",
-    "Security": "TJX Companies",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Apparel Retail",
-    "Headquarters Location": "Framingham, Massachusetts",
-    "Date first added": "1985-09-30",
-    "CIK": "0000109198",
-    "Founded": 1987
-  },
-  {
-    "Symbol": "TSCO",
-    "Security": "Tractor Supply",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Specialty Stores",
-    "Headquarters Location": "Brentwood, Tennessee",
-    "Date first added": "2014-01-24",
-    "CIK": "0000916365",
-    "Founded": 1938
-  },
-  {
-    "Symbol": "TT",
-    "Security": "Trane Technologies",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Building Products",
-    "Headquarters Location": "Dublin, Ireland",
-    "Date first added": "2010-11-17",
-    "CIK": "0001466258",
-    "Founded": 1871
-  },
-  {
-    "Symbol": "TDG",
-    "Security": "TransDigm",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Aerospace & Defense",
-    "Headquarters Location": "Cleveland, Ohio",
-    "Date first added": "2016-06-03",
-    "CIK": "0001260221",
-    "Founded": 1993
-  },
-  {
-    "Symbol": "TRV",
-    "Security": "Travelers",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Property & Casualty Insurance",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": "2002-08-21",
-    "CIK": "0000086312",
-    "Founded": 1853
-  },
-  {
-    "Symbol": "TRMB",
-    "Security": "Trimble",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Electronic Equipment & Instruments",
-    "Headquarters Location": "Sunnyvale, California",
-    "Date first added": "2021-01-21",
-    "CIK": "0000864749",
-    "Founded": 1978
-  },
-  {
-    "Symbol": "TFC",
-    "Security": "Truist",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Regional Banks",
-    "Headquarters Location": "Charlotte, North Carolina",
-    "Date first added": "1997-12-04",
-    "CIK": "0000092230",
-    "Founded": 1872
-  },
+
+
+
+ 
   {
     "Symbol": "TWTR",
     "Security": "Twitter",
@@ -4982,17 +1808,7 @@ const stocks = [
     "CIK": "0001418091",
     "Founded": 2006
   },
-  {
-    "Symbol": "TYL",
-    "Security": "Tyler Technologies",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Application Software",
-    "Headquarters Location": "Plano, Texas",
-    "Date first added": "2020-06-22",
-    "CIK": "0000860731",
-    "Founded": 1966
-  },
+
   {
     "Symbol": "TSN",
     "Security": "Tyson",
@@ -5004,28 +1820,8 @@ const stocks = [
     "CIK": "0000100493",
     "Founded": 1935
   },
-  {
-    "Symbol": "USB",
-    "Security": "U.S. Bank",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Diversified Banks",
-    "Headquarters Location": "Minneapolis, Minnesota",
-    "Date first added": "",
-    "CIK": "0000036104",
-    "Founded": 1968
-  },
-  {
-    "Symbol": "UDR",
-    "Security": "UDR",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Residential REITs",
-    "Headquarters Location": "Highlands Ranch, Colorado",
-    "Date first added": "2016-03-07",
-    "CIK": "0000074208",
-    "Founded": 1972
-  },
+
+
   {
     "Symbol": "ULTA",
     "Security": "Ulta Beauty",
@@ -5048,28 +1844,8 @@ const stocks = [
     "CIK": "0001336917",
     "Founded": 1996
   },
-  {
-    "Symbol": "UA",
-    "Security": "Under Armour (Class C)",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
-    "Headquarters Location": "Baltimore, Maryland",
-    "Date first added": "2016-04-08",
-    "CIK": "0001336917",
-    "Founded": 1996
-  },
-  {
-    "Symbol": "UNP",
-    "Security": "Union Pacific",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Railroads",
-    "Headquarters Location": "Omaha, Nebraska",
-    "Date first added": "1957-03-04",
-    "CIK": "0000100885",
-    "Founded": 1862
-  },
+
+
   {
     "Symbol": "UAL",
     "Security": "United Airlines",
@@ -5103,28 +1879,8 @@ const stocks = [
     "CIK": "0001090727",
     "Founded": 1907
   },
-  {
-    "Symbol": "URI",
-    "Security": "United Rentals",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Trading Companies & Distributors",
-    "Headquarters Location": "Stamford, Connecticut",
-    "Date first added": "2014-09-20",
-    "CIK": "0001067701",
-    "Founded": 1997
-  },
-  {
-    "Symbol": "UHS",
-    "Security": "Universal Health Services",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Facilities",
-    "Headquarters Location": "King of Prussia, Pennsylvania",
-    "Date first added": "2014-09-20",
-    "CIK": "0000352915",
-    "Founded": 1979
-  },
+
+ 
   {
     "Symbol": "VLO",
     "Security": "Valero",
@@ -5136,39 +1892,9 @@ const stocks = [
     "CIK": "0001035002",
     "Founded": 1980
   },
-  {
-    "Symbol": "VTR",
-    "Security": "Ventas",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Health Care REITs",
-    "Headquarters Location": "Chicago, Illinois",
-    "Date first added": "2009-03-04",
-    "CIK": "0000740260",
-    "Founded": 1998
-  },
-  {
-    "Symbol": "VRSN",
-    "Security": "Verisign",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Internet Services & Infrastructure",
-    "Headquarters Location": "Dulles, Virginia",
-    "Date first added": "2006-02-01",
-    "CIK": "0001014473",
-    "Founded": 1995
-  },
-  {
-    "Symbol": "VRSK",
-    "Security": "Verisk",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Research & Consulting Services",
-    "Headquarters Location": "Jersey City, New Jersey",
-    "Date first added": "2015-10-08",
-    "CIK": "0001442145",
-    "Founded": 1971
-  },
+
+
+  
   {
     "Symbol": "VZ",
     "Security": "Verizon",
@@ -5180,39 +1906,8 @@ const stocks = [
     "CIK": "0000732712",
     "Founded": "1983 (1877)"
   },
-  {
-    "Symbol": "VRTX",
-    "Security": "Vertex",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Biotechnology",
-    "Headquarters Location": "Cambridge, Massachusetts",
-    "Date first added": "2013-09-23",
-    "CIK": "0000875320",
-    "Founded": 1989
-  },
-  {
-    "Symbol": "VFC",
-    "Security": "VF Corporation",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
-    "Headquarters Location": "Denver, Colorado",
-    "Date first added": "1979-06-30",
-    "CIK": "0000103379",
-    "Founded": 1899
-  },
-  {
-    "Symbol": "VTRS",
-    "Security": "Viatris",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Pharmaceuticals",
-    "Headquarters Location": "Pittsburgh, Pennsylvania",
-    "Date first added": "2004-04-23",
-    "CIK": "0001792044",
-    "Founded": 1961
-  },
+
+
   {
     "Symbol": "V",
     "Security": "Visa",
@@ -5224,39 +1919,9 @@ const stocks = [
     "CIK": "0001403161",
     "Founded": 1958
   },
-  {
-    "Symbol": "VNO",
-    "Security": "Vornado Realty Trust",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Office REITs",
-    "Headquarters Location": "New York City, New York",
-    "Date first added": 2005,
-    "CIK": "0000899689",
-    "Founded": 1982
-  },
-  {
-    "Symbol": "VMC",
-    "Security": "Vulcan Materials",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Construction Materials",
-    "Headquarters Location": "Birmingham, Alabama",
-    "Date first added": "1999-06-30",
-    "CIK": "0001396009",
-    "Founded": 1909
-  },
-  {
-    "Symbol": "WAB",
-    "Security": "Wabtec",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Construction Machinery & Heavy Trucks",
-    "Headquarters Location": "Pittsburgh, Pennsylvania",
-    "Date first added": "2019-02-27",
-    "CIK": "0000943452",
-    "Founded": "1999 (1869)"
-  },
+
+
+
   {
     "Symbol": "WMT",
     "Security": "Walmart",
@@ -5279,39 +1944,9 @@ const stocks = [
     "CIK": "0001618921",
     "Founded": 2014
   },
-  {
-    "Symbol": "WM",
-    "Security": "Waste Management",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Environmental & Facilities Services",
-    "Headquarters Location": "Houston, Texas",
-    "Date first added": "",
-    "CIK": "0000823768",
-    "Founded": 1968
-  },
-  {
-    "Symbol": "WAT",
-    "Security": "Waters",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Distributors",
-    "Headquarters Location": "Milford, Massachusetts",
-    "Date first added": "",
-    "CIK": "0001000697",
-    "Founded": 1958
-  },
-  {
-    "Symbol": "WEC",
-    "Security": "WEC Energy Group",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Electric Utilities",
-    "Headquarters Location": "Milwaukee, Wisconsin",
-    "Date first added": "2008-10-31",
-    "CIK": "0000783325",
-    "Founded": 1896
-  },
+
+
+ 
   {
     "Symbol": "WFC",
     "Security": "Wells Fargo",
@@ -5323,61 +1958,11 @@ const stocks = [
     "CIK": "0000072971",
     "Founded": 1852
   },
-  {
-    "Symbol": "WELL",
-    "Security": "Welltower",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Health Care REITs",
-    "Headquarters Location": "Toledo, Ohio",
-    "Date first added": "2009-01-30",
-    "CIK": "0000766704",
-    "Founded": 1970
-  },
-  {
-    "Symbol": "WST",
-    "Security": "West Pharmaceutical Services",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Supplies",
-    "Headquarters Location": "Exton, Pennsylvania",
-    "Date first added": "2020-05-22",
-    "CIK": "0000105770",
-    "Founded": 1923
-  },
-  {
-    "Symbol": "WDC",
-    "Security": "Western Digital",
-    "SEC filings": "reports",
-    "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
-    "Headquarters Location": "San Jose, California",
-    "Date first added": "2009-07-01",
-    "CIK": "0000106040",
-    "Founded": 1970
-  },
-  {
-    "Symbol": "WRK",
-    "Security": "WestRock",
-    "SEC filings": "reports",
-    "GICS Sector": "Materials",
-    "GICS Sub-Industry": "Paper Packaging",
-    "Headquarters Location": "Atlanta, Georgia",
-    "Date first added": "",
-    "CIK": "0001732845",
-    "Founded": 2015
-  },
-  {
-    "Symbol": "WY",
-    "Security": "Weyerhaeuser",
-    "SEC filings": "reports",
-    "GICS Sector": "Real Estate",
-    "GICS Sub-Industry": "Specialized REITs",
-    "Headquarters Location": "Seattle, Washington",
-    "Date first added": "",
-    "CIK": "0000106535",
-    "Founded": 1900
-  },
+
+
+
+
+
   {
     "Symbol": "WHR",
     "Security": "Whirlpool",
@@ -5389,61 +1974,11 @@ const stocks = [
     "CIK": "0000106640",
     "Founded": 1911
   },
-  {
-    "Symbol": "WMB",
-    "Security": "Williams",
-    "SEC filings": "reports",
-    "GICS Sector": "Energy",
-    "GICS Sub-Industry": "Oil & Gas Storage & Transportation",
-    "Headquarters Location": "Tulsa, Oklahoma",
-    "Date first added": "1975-03-31",
-    "CIK": "0000107263",
-    "Founded": 1908
-  },
-  {
-    "Symbol": "WTW",
-    "Security": "Willis Towers Watson",
-    "SEC filings": "reports",
-    "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Insurance Brokers",
-    "Headquarters Location": "London, England",
-    "Date first added": "2016-01-05",
-    "CIK": "0001140536",
-    "Founded": 2016
-  },
-  {
-    "Symbol": "WYNN",
-    "Security": "Wynn Resorts",
-    "SEC filings": "reports",
-    "GICS Sector": "Consumer Discretionary",
-    "GICS Sub-Industry": "Casinos & Gaming",
-    "Headquarters Location": "Paradise, Nevada",
-    "Date first added": "2008-11-14",
-    "CIK": "0001174922",
-    "Founded": 2002
-  },
-  {
-    "Symbol": "XEL",
-    "Security": "Xcel Energy",
-    "SEC filings": "reports",
-    "GICS Sector": "Utilities",
-    "GICS Sub-Industry": "Multi-Utilities",
-    "Headquarters Location": "Minneapolis, Minnesota",
-    "Date first added": "1957-03-04",
-    "CIK": "0000072903",
-    "Founded": 1909
-  },
-  {
-    "Symbol": "XYL",
-    "Security": "Xylem",
-    "SEC filings": "reports",
-    "GICS Sector": "Industrials",
-    "GICS Sub-Industry": "Industrial Machinery",
-    "Headquarters Location": "White Plains, New York",
-    "Date first added": "2011-11-01",
-    "CIK": "0001524472",
-    "Founded": 2011
-  },
+
+
+
+
+
   {
     "Symbol": "YUM",
     "Security": "Yum! Brands",
@@ -5455,49 +1990,88 @@ const stocks = [
     "CIK": "0001041061",
     "Founded": 1997
   },
+
   {
-    "Symbol": "ZBRA",
-    "Security": "Zebra",
-    "SEC filings": "reports",
+    "Symbol": "SQ",
+    "Security": "Block(Square) Inc",
     "GICS Sector": "Information Technology",
-    "GICS Sub-Industry": "Electronic Equipment & Instruments",
-    "Headquarters Location": "Lincolnshire, Illinois",
-    "Date first added": "2019-12-23",
-    "CIK": "0000877212",
-    "Founded": 1969
+    "GICS Sub-Industry": "IT Services",
+    "Founded": 2009,
+    "Headquarters Location": "San Francisco, California"
   },
   {
-    "Symbol": "ZBH",
-    "Security": "Zimmer Biomet",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Health Care Equipment",
-    "Headquarters Location": "Warsaw, Indiana",
-    "Date first added": "2001-08-07",
-    "CIK": "0001136869",
-    "Founded": 1927
+    "Symbol": "UBER",
+    "Security": "Uber Technologies",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Road & Rail",
+    "Founded": 2009,
+    "Headquarters Location": "San Francisco, California"
   },
   {
-    "Symbol": "ZION",
-    "Security": "Zions Bancorp",
-    "SEC filings": "reports",
+    "Symbol": "COIN",
+    "Security": "Coinbase",
     "GICS Sector": "Financials",
-    "GICS Sub-Industry": "Regional Banks",
-    "Headquarters Location": "Salt Lake City, Utah",
-    "Date first added": "2001-06-22",
-    "CIK": "0000109380",
-    "Founded": 1873
+    "GICS Sub-Industry": "Capital Markets",
+    "Founded": 2012,
+    "Headquarters Location": "Remote"
   },
   {
-    "Symbol": "ZTS",
-    "Security": "Zoetis",
-    "SEC filings": "reports",
-    "GICS Sector": "Health Care",
-    "GICS Sub-Industry": "Pharmaceuticals",
-    "Headquarters Location": "Parsippany, New Jersey",
-    "Date first added": "2013-06-21",
-    "CIK": "0001555280",
-    "Founded": 1952
+    "Symbol": "PLTR",
+    "Security": "Palantir Technologies",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Software",
+    "Founded": 2003,
+    "Headquarters Location": "Denver, Colorado"
+  },
+  {
+    "Symbol": "GME",
+    "Security": "GameStop",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Specialty Retail",
+    "Founded": 1984,
+    "Headquarters Location": "Grapevine, Texas"
+  },
+  {
+    "Symbol": "GME",
+    "Security": "GameStop",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Specialty Retail",
+    "Founded": 1984,
+    "Headquarters Location": "Grapevine, Texas"
+  },
+  {
+    "Symbol": "AEO",
+    "Security": "American Eagle",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Specialty Retail",
+    "Founded": 1977,
+    "Headquarters Location": "Pittsburgh, Pennsylvania"
+  },
+  {
+    "Symbol": "DKS",
+    "Security": "Dick's Sporting Goods",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Specialty Retail",
+    "Founded": 1948,
+    "Headquarters Location": "Caraopolis, Pennsylvania"
+  },
+  {
+    "Symbol": "DASH",
+    "Security": "DoorDash",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Internet & Direct Marketing Retail",
+    "Founded": 2013,
+    "Headquarters Location": "San Francisco, California"
+  },
+  {
+    "Symbol": "LEVI",
+    "Security": "Levi Strauss & Co (Levi's)",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Textiles, Apparel & Luxury Goods",
+    "Founded": 1853,
+    "Headquarters Location": "San Francisco, California"
   }
+
+ 
 ]
 export default stocks

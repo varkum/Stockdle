@@ -40,7 +40,7 @@ export default function GuessBox(props) {
 
     const value = props.input
   const inputProps = {
-    placeholder: "Know the S&P 500 Company?",
+    placeholder: "Know the Company?",
     value,
     onChange: handleChange
   }
