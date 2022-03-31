@@ -1,13 +1,14 @@
 
 
 
-Add share button 
-Remember user's record for the share data
+ 
+
 
 
 Remember the hints used??
 
-Keep track of Stockdle numbers?
+
+Fix up the keeping track of streak data - right now something weird happens when you dont play consecutive days
 
 
 

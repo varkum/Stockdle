@@ -7,6 +7,7 @@ import GuessList from './components/GuessList'
 import useChecker from './hooks/useChecker'
 import InputBox from './components/InputBox'
 import useStats from './hooks/useStats'
+import 'animate.css'
 
 const date = new Date()
 const dateID = new Math.seedrandom(date.getDate())
@@ -15,8 +16,8 @@ const stockObj = useStock(dateID())
 export default function App() {
   
   
-   //localStorage.clear()
-    
+   
+  
 
   //get old game data
   const done = localStorage.getItem('done')
@@ -99,9 +100,11 @@ export default function App() {
     let resultStr = ""
     resultStr += `🔥Streak: ${results.length} \n`
     
-    for (let i=0; i<results.length; i++) {
+    for(let i=0; i<results.length; i++) {
       resultStr += `🟥`.repeat(results[i].guesses - 1)
-      if (results[i].guesses !== 6) {
+      if (results[i].guesses === 6) {
+        resultStr += `🟥`
+      } else {
         resultStr += `🟩`
         resultStr += `⬜`.repeat( 6 - results[i].guesses)
       }
@@ -128,21 +131,18 @@ ${resultStr}
     }, 1600)
   }
   
-  const share = <a onClick={copy}>Share!</a>
+  const share = <button className="share animate__animated animate__bounce" onClick={copy}>SHARE 🔔</button>
+  
   //Make input box or message
-  const prompt = gameDone == 'won' ? 
+  const prompt = gameDone == 'won' || gameDone == 'lost' ? 
     <div>
-      <h1 style={{margin: "10px"}}>WELL DONE!</h1> 
-      {share}
-      </div> : gameDone == 'lost' ? 
-    <div>
-      <h1>{stockObj['Security']}</h1> 
+      <h1>{stockObj['Security'].toUpperCase()}</h1> 
       {share}
       </div> :
       <div>
         <form type="submit" onSubmit={handleSubmit} >
           <InputBox input={input} handleInput={handleInputChange} />
-          <button className="submit" type="submit">💰 Submit 💰</button>
+          <button className="submit" type="submit">💰 SUBMIT 💰</button>
           </form>
         </div>
   
@@ -155,6 +155,10 @@ ${resultStr}
         <GuessList list={list} />
       </div>
       {prompt}
+        </div>
+      <div className="footer">
+        Made by Varun Kumar
+        <a href="https://github.com/varkum"><img src="/src/icons/github.png" alt="github" width="18" height="18" /></a>
         </div>
     </main>
     
