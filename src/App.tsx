@@ -6,12 +6,19 @@ import Header from './components/Header'
 import GuessList from './components/GuessList'
 import useChecker from './hooks/useChecker'
 import InputBox from './components/InputBox'
+import useStats from './hooks/useStats'
 
-const stockObj = useStock()
+const date = new Date()
+const dateID = new Math.seedrandom(date.getDate())
+const stockObj = useStock(dateID())
 
 export default function App() {
-  //get old game data
   
+  
+   //localStorage.clear()
+    
+
+  //get old game data
   const done = localStorage.getItem('done')
   
   const [input, updateInput] = useState("")
@@ -20,6 +27,10 @@ export default function App() {
   const [gameDone, updateDone] = useState(done)
 
   const checkInput = useChecker(stockObj)
+  const updateStats = useStats()
+  
+   
+  
   
   //update localstorage list of guesses
   useEffect(() => {
@@ -32,7 +43,17 @@ export default function App() {
   useEffect(() => {
      if (guessCount === 6) {
       updateDone('lost')
+       updateStats({
+        numGuesses: guessCount,
+        game: 'lost'
+      })
     }
+
+    
+
+    
+
+     
   }, [guessCount])
   
   //update localstorage if game is won
@@ -55,25 +76,73 @@ export default function App() {
     if (checkInput(input)) {
       guess = "✅ " + input
       updateDone('won')
+      updateStats({
+        numGuesses: guessCount + 1,
+        game: 'won'
+      })
+     }
+    updateCount(guessCount + 1)
       
-    } else {
-      updateCount(guessCount + 1)
-      
-    }
+    
     //remember that game ended if all guesses used
    
     updateList([...list, guess])
     updateInput("")
   }
+
+  const copy = () => {
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"]
+    const dateStr = `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`
+
+    const results = JSON.parse(localStorage.getItem('stats'))  
+    console.log(results)
+    let resultStr = ""
+    resultStr += `🔥Streak: ${results.length} \n`
+    
+    for (let i=0; i<results.length; i++) {
+      resultStr += `🟥`.repeat(results[i].guesses - 1)
+      if (results[i].guesses !== 6) {
+        resultStr += `🟩`
+        resultStr += `⬜`.repeat( 6 - results[i].guesses)
+      }
+      resultStr += `
+`
+      
+    }
+    let shareString = `
+📈 #Stockdle 📈
+💸 ${dateStr}  
+${resultStr}
+`
+
+    navigator.clipboard.writeText(shareString)
+    const main = document.querySelector("main")
+    const copyMsg = document.createElement('p') 
+    copyMsg.setAttribute('id', 'copyMsg')
+    copyMsg.textContent = "Copied!"
+    main.appendChild(copyMsg)
+
+    setTimeout(() => {
+      document.getElementById("copyMsg").remove()
+      
+    }, 1600)
+  }
   
-  
-  
+  const share = <a onClick={copy}>Share!</a>
   //Make input box or message
-  const prompt = gameDone == 'won' ? <h1 style={{margin: "10px"}}>WELL DONE!</h1> : gameDone == 'lost' ? <h1>{stockObj['Security']}</h1> :
+  const prompt = gameDone == 'won' ? 
+    <div>
+      <h1 style={{margin: "10px"}}>WELL DONE!</h1> 
+      {share}
+      </div> : gameDone == 'lost' ? 
+    <div>
+      <h1>{stockObj['Security']}</h1> 
+      {share}
+      </div> :
       <div>
         <form type="submit" onSubmit={handleSubmit} >
           <InputBox input={input} handleInput={handleInputChange} />
-          <button type="submit">💰 Submit 💰</button>
+          <button className="submit" type="submit">💰 Submit 💰</button>
           </form>
         </div>
   
@@ -88,5 +157,6 @@ export default function App() {
       {prompt}
         </div>
     </main>
+    
   ) 
 }

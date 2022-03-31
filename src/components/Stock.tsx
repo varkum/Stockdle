@@ -21,9 +21,6 @@ export default function Stock(props) {
         updateHints([...hints, `Sub-Sector: ${props.stock["GICS Sub-Industry"]}`])
         break
       case 5:
-        /*
-        let words = props.stock["Security"].split(" ")
-        while (words[i] == "Group" || words[i] == "Company" || words[i] == "(Class C)" || words[i] == "Energy" || words[i] == "Corporation" || words[i] == "Brands" || words[i] == "(Series A)" || words[i] == "(Class B)" || words[i] == "Entertainment" || words[i] == "International" || words[i] == "Industries" || words[i] == "Solutions" || words[i] == "Beverage" || words[i] == "(Class A)" || words[i] == "Holdings") */
         updateHints([...hints, `Number of letters: ${props.stock["Security"].length}`])
         break
     }
