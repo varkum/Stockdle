@@ -4,7 +4,8 @@ import useStock from './hooks/useStock'
 import Stock from './components/Stock'
 import Header from './components/Header'
 import GuessList from './components/GuessList'
-import GuessBox from './components/GuessBox'
+import useChecker from './hooks/useChecker'
+import InputBox from './components/InputBox'
 
 const stockObj = useStock()
 
@@ -18,8 +19,8 @@ export default function App() {
   const [guessCount, updateCount] = useState(0)
   const [gameDone, updateDone] = useState(done)
 
+  const checkInput = useChecker(stockObj)
   
-
   //update localstorage list of guesses
   useEffect(() => {
     if (list.length != 0) {
@@ -51,7 +52,7 @@ export default function App() {
   const handleSubmit = (e) => {
     e.preventDefault()
     let guess = "❌ " + input
-    if (input === stockObj['Security']) {
+    if (checkInput(input)) {
       guess = "✅ " + input
       updateDone('won')
       
@@ -69,19 +70,23 @@ export default function App() {
   
   //Make input box or message
   const prompt = gameDone == 'won' ? <h1 style={{margin: "10px"}}>WELL DONE!</h1> : gameDone == 'lost' ? <h1>{stockObj['Security']}</h1> :
-      <div className="guesser">
-          <GuessBox input={input} handleInput={handleInputChange} />
-          <button onClick={handleSubmit}>Submit</button>
+      <div>
+        <form type="submit" onSubmit={handleSubmit} >
+          <InputBox input={input} handleInput={handleInputChange} />
+          <button type="submit">💰 Submit 💰</button>
+          </form>
         </div>
   
   return (
     <main>
       <Header />
+      <div className="container">
       <div className="ticker">
         <Stock stock={stockObj} count={guessCount} />
         <GuessList list={list} />
-        {prompt}
       </div>
+      {prompt}
+        </div>
     </main>
   ) 
 }

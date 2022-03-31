@@ -10,7 +10,6 @@ export default function GuessList(props) {
   } 
   
   let guessComps = Array(6).fill("")
-  console.log(guesses)
   for (let i=0; i<guesses.length; i++) {
     guessComps[i] = guesses[i]
   }

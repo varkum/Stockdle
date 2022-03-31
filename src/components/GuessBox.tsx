@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Autosuggest from 'react-autosuggest'
 import stocks from '../stocks'
-import theme from "./theme"
+//import theme from "./theme"
 
 const getSuggestions = value => {
   const inputValue = value.trim().toLowerCase()
@@ -54,7 +54,7 @@ export default function GuessBox(props) {
         getSuggestionValue={getSuggestionValue}
         renderSuggestion={renderSuggestion}
         inputProps={inputProps}
-        theme = {theme}
+        
         />
     </div>
   )
