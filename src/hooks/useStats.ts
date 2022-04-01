@@ -32,7 +32,7 @@ export default function useStats() {
     }
     localStorage.setItem('total', JSON.stringify(data))
 
-    console.log(JSON.parse(localStorage.getItem('total')))
+    
     //update game stats
     if (!stats) {
       
@@ -52,7 +52,7 @@ export default function useStats() {
         game: game
       })
       
-      if (streak === 6) {
+      if (stats.length === 6) {
         stats.shift()
       }
       

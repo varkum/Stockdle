@@ -5,6 +5,7 @@ import Stock from './components/Stock'
 import Header from './components/Header'
 import GuessList from './components/GuessList'
 import useChecker from './hooks/useChecker'
+import Footer from './components/Footer'
 import InputBox from './components/InputBox'
 import useStats from './hooks/useStats'
 import 'animate.css'
@@ -131,7 +132,7 @@ ${resultStr}
     }, 1600)
   }
   
-  const share = <button className="share animate__animated animate__bounce" onClick={copy}>SHARE 🔔</button>
+  const share = <button className="share" onClick={copy}>SHARE 🔔</button>
   
   //Make input box or message
   const prompt = gameDone == 'won' || gameDone == 'lost' ? 
@@ -156,10 +157,7 @@ ${resultStr}
       </div>
       {prompt}
         </div>
-      <div className="footer">
-        Made by Varun Kumar
-        <a href="https://github.com/varkum"><img src="/src/icons/github.png" alt="github" width="18" height="18" /></a>
-        </div>
+     <Footer />
     </main>
     
   ) 
