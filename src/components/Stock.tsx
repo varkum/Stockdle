@@ -1,9 +1,22 @@
 import React, { useState, useEffect } from 'react'
 
 export default function Stock(props) {
-  const [hints, updateHints] = useState([])
+  const hintsCache = localStorage.getItem('hints') ? JSON.parse(localStorage.getItem('hints')) : []
+
+  
+  const [hints, updateHints] = useState(hintsCache)
 
   useEffect(() => {
+    if (props.gameDone == 'won' || props.gameDone == 'lost') {
+    updateHints([`Headquarters: ${props.stock["Headquarters Location"]}`, `Founded: ${props.stock["Founded"]}`, `Sector: ${props.stock["GICS Sector"]}`, `Sub-Sector: ${props.stock["GICS Sub-Industry"]}`, `Number of letters: ${props.stock["Security"].length}`]) }
+  }, [props.gameDone])
+
+  useEffect(() => {
+    localStorage.setItem('hints', JSON.stringify(hints))
+  }, [hints])
+  
+  useEffect(() => {
+    if (props.gameDone !== 'won') {
     switch(props.count) {
       case 1:
         updateHints([...hints, `Headquarters: ${props.stock["Headquarters Location"]}`])
@@ -23,6 +36,7 @@ export default function Stock(props) {
       case 5:
         updateHints([...hints, `Number of letters: ${props.stock["Security"].length}`])
         break
+    }
     }
   }, [props.count])
 

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Modal from './Modal'
+import Footer from './Footer'
+
 
 export default function Header() {
   const [howTo, updateHowTo] = useState(false)

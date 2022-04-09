@@ -16,24 +16,21 @@ const stockObj = useStock(dateID())
 
 export default function App() {
   
-  
-   
-  
-
   //get old game data
   const done = localStorage.getItem('done')
+  const guessesCache = localStorage.getItem('guesses') ? JSON.parse(localStorage.getItem('guesses')) : []
   
   const [input, updateInput] = useState("")
-  const [list, updateList] = useState([])
-  const [guessCount, updateCount] = useState(0)
+  const [list, updateList] = useState(guessesCache)
+  const [guessCount, updateCount] = useState(list.length)
   const [gameDone, updateDone] = useState(done)
 
+  //hooks
   const checkInput = useChecker(stockObj)
   const updateStats = useStats()
+
   
    
-  
-  
   //update localstorage list of guesses
   useEffect(() => {
     if (list.length != 0) {
@@ -92,6 +89,7 @@ export default function App() {
     updateInput("")
   }
 
+  //share function
   const copy = () => {
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"]
     const dateStr = `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`
@@ -120,7 +118,7 @@ ${resultStr}
 `
 
     navigator.clipboard.writeText(shareString)
-    const main = document.querySelector("main")
+    const main = document.querySelector("#game")
     const copyMsg = document.createElement('p') 
     copyMsg.setAttribute('id', 'copyMsg')
     copyMsg.textContent = "Copied!"
@@ -148,17 +146,25 @@ ${resultStr}
         </div>
   
   return (
-    <main>
-      <Header />
+    <div style={{height: "100vh"}}>
+    
       <div className="container">
+      <Header />
+      <div id="game">
       <div className="ticker">
-        <Stock stock={stockObj} count={guessCount} />
+        <Stock stock={stockObj} count={guessCount} gameDone={gameDone} />
         <GuessList list={list} />
       </div>
       {prompt}
         </div>
-     <Footer />
-    </main>
+        
+     
+          
+        </div>
     
+   <footer>
+       <p>hello</p>
+     </footer>
+      </div>
   ) 
 }

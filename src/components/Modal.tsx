@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Footer from './Footer'
 
 export default function Modal(props) {
   if (!props.show) {

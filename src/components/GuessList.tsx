@@ -3,11 +3,15 @@ import Guess from './Guess'
 
 export default function GuessList(props) {
   const gameDone = localStorage.getItem('done')
-  let guesses = props.list
+  const guesses = props.list
+
   
-      if (gameDone === 'won' || gameDone == 'lost') {
-    guesses = JSON.parse(localStorage.getItem('guesses'))
-  } 
+
+  
+  
+
+  
+  
   
   let guessComps = Array(6).fill("")
   for (let i=0; i<guesses.length; i++) {

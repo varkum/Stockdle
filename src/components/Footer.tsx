@@ -16,13 +16,10 @@ export default function Footer(props) {
       
     </div>
   return (
-    <div className="footer">
-    <button className="footer-btn" onClick={handleShow}><i className="fa-solid fa-heart"></i></button>Support
+    <div className="footer-container">
+    <button className="footer-btn" onClick={handleShow}><i className="fa-solid fa-heart"></i> Support</button>
     <Modal show={showSupport} handleClose={handleShow} header="Support" content={supportTxt}/>
     </div>                      
   )
 }
 
-/*
-<a href="https://github.com/varkum/Stockdle"><i className="fa-brands fa-github"></i></a>
-*/

@@ -8,6 +8,7 @@ export default function useStock(dateID) {
   } else if (dateID.toString() !== localStorage.getItem('recentDay')) {
     localStorage.removeItem('done')
     localStorage.removeItem('guesses')
+    localStorage.removeItem('hints')
     localStorage.setItem('recentDay', dateID.toString())
   }
 
