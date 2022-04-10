@@ -3,7 +3,7 @@ import Modal from './Modal'
 import Footer from './Footer'
 
 
-export default function Header() {
+export default function Header(props) {
   const [howTo, updateHowTo] = useState(false)
   const [showStats, updateShowStats] = useState(false)
   const [stats, updateStats] = useState({
@@ -21,7 +21,7 @@ export default function Header() {
     stats.lost = statsObj.lost
     stats.winPercent = ((statsObj.won/statsObj.played) * 100).toFixed(2)
     }
-  }, [])
+  }, [props.gameDone])
   
   const handleHowTo = () => {
     updateHowTo(!howTo)

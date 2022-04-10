@@ -42,12 +42,13 @@ export default function App() {
   useEffect(() => {
      if (guessCount === 6) {
       updateDone('lost')
+       if (!done) {
        updateStats({
         numGuesses: guessCount,
         game: 'lost'
       })
     }
-
+     }
     
 
     
@@ -75,10 +76,12 @@ export default function App() {
     if (checkInput(input)) {
       guess = "✅ " + input
       updateDone('won')
+      if (!done) {
       updateStats({
         numGuesses: guessCount + 1,
         game: 'won'
       })
+      }
      }
     updateCount(guessCount + 1)
       
@@ -146,10 +149,13 @@ ${resultStr}
         </div>
   
   return (
-    <div style={{height: "100vh"}}>
+    <div className="container">
     
-      <div className="container">
-      <Header />
+      <div className="game-cont">
+        <header>
+          <Header gameDone={gameDone} />
+        </header>
+      
       <div id="game">
       <div className="ticker">
         <Stock stock={stockObj} count={guessCount} gameDone={gameDone} />
@@ -158,13 +164,11 @@ ${resultStr}
       {prompt}
         </div>
         
-     
-          
-        </div>
-    
+     </div>
    <footer>
-       <p>hello</p>
+       <Footer />
      </footer>
+        
       </div>
   ) 
 }
